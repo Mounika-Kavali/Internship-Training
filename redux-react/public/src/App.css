@@ -1,0 +1,49 @@
+.barcode-reader-component{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.manual-barcode-reader input{
+    width: '200px'; 
+    padding:5px;
+    font-size: 20px;
+}
+.manual-barcode-reader button{
+    margin:0 20px;
+    padding:5px;
+    font-size: 15px;
+    background-color: rgb(159, 159, 236);
+    
+}
+.collect-containers-table{
+    width: 80%;
+    border-collapse: collapse;
+    
+}
+.collect-containers-table th, 
+.collect-containers-table td {
+    border-bottom: 2px solid rgb(190, 189, 189);
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;    
+}
+.collect-containers-table tbody tr:hover {
+    background-color: rgb(189, 250, 250);
+}
+  
+.collect-containers-table tbody tr:nth-child(even):hover {
+    background-color: rgb(189, 250, 250); 
+}
+.collect-containers-table tbody tr:nth-child(even) {
+    background-color: #dbdbdb; /* Gray background for even rows */
+}
+#thumbsDownIcon{
+   padding-left: 10px;
+   font-size: 20px;
+   color:gray
+}
+#thumbsUpIcon{
+    padding-left: 10px;
+   font-size: 20px;
+   color:rgb(51, 99, 51)
+}

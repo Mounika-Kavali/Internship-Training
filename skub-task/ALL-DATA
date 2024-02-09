@@ -1,0 +1,751 @@
+# -- "wfData in buildWorkflowObj() before  wfObj =cloneDeep(wfData)"
+# -- this data is coming from { this.props.workflow } in workflow-viewer.js
+
+{name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …}
+bucketGroupsByInBucketMap:{534b4242-5fa9-92f2-99ac-7f000a836cf8: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd15f2: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1601: {…}, 534b4242-5a6a-84b0-f6a1-ac2415a632cc: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1607: {…}, …}
+bucket_group_sets: (18) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+bucket_groups:(282) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+bucketsMap:{534b4242-5a39-7248-f6a1-ac0b39dd15f3: {…}, 534b4242-5fa9-92f2-99ac-7f000a836cf8: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd15f2: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1601: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1602: {…}, …}
+description:"beta synthesis workflow"
+entry_bucket_id:"534b4242-59d3-e033-a19c-e43dc0d2bbcb"
+id:"534b4257-5812-445e-a19c-e4146331dec6"
+name:"beta"
+site_id:"144ec6fa-33b7-423a-8a4e-4c378563f3f9"
+transitionBySourceMap:{534b4242-5812-445e-a19c-e4146331df96: {…}, 534b4242-5812-445e-a19c-e4146331df2d: {…}, 534b4242-5c54-ffbf-37ce-ae363b82454b: {…}, 534b4242-5812-445e-a19c-e4146331def1: {…}, 534b4242-5812-445e-a19c-e4146331df1e: {…}, …}
+transitions:(349) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+version:134
+
+
+# -- "bucketGroup in reorderOutBucketsForPredictablePlot()"
+
+{name: 'ORDER_INTAKE', description: 'Order Intake', buckets: Array(2), ui: {…}, id: '534b4247-59d3-e033-a19c-e43dc0d2bbca'}
+buckets:Array(2)
+0:{name: 'in', description: 'Order Intake', direction: 'input', path: null, ui: {…}, …}
+1:{name: 'out', description: 'Order Intake', direction: 'output', path: null, ui: {…}, …}
+length:2
+[[Prototype]]:Array(0)
+description:"Order Intake"
+id:"534b4247-59d3-e033-a19c-e43dc0d2bbca"
+name:"ORDER_INTAKE"
+ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+_uidata:
+nextBucketGroups:{534b4247-5882-ba52-a19c-e42a48b07a2c: {…}}
+position:{x: 0, y: 5}
+previousBucketGroups:{}
+
+# -- bucketGroupName,x,initialY in adjustBucketXYForBestPlot()
+ ORDER_INTAKE 0 0
+# -- again reorderOutBucketsForPredictablePlot() bucketGroup is changed to 
+# -- {name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c'......}
+ SYN_00 1 5 
+# --  next {name: 'SYN_01', description: 'CHP Synthesis', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dec7'....}
+ SYN_01 1 6 
+# --  next {name: 'CHP_62', description: 'CHP Deprotection', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331deca'...}
+CHP_62 1 7
+
+
+
+
+
+
+# -- if (adjustments[bucketGroupName]){coords[prop] += adjustments[bucketGroupName][prop]}
+coords[prop]
+# --  ORDER_INTAKE
+5
+# -- SYN_00
+0
+6
+# -- SYN_01
+0
+7
+# -- CHP_62
+0
+8
+# -- PCA_53
+1.9
+5.5
+
+
+
+
+
+
+# -- coordinateAndLinkBucketGroups()
+this function is called when  buildWorkflowObj() is invoked -> coordinateAndLinkBucketGroups()-> reorderOutBucketsForPredictablePlot()
+    inBucketIds: ['534b4242-59d3-e033-a19c-e43dc0d2bbcb']
+    x: 0
+    y: 0
+    previousBucketGroup: null
+    isEntry: true
+
+
+    inBucketIds:['534b4242-5882-ba52-a19c-e42a48b07a2d']
+    x:1
+    y:5
+    previousBucketGroup: {name: 'ORDER_INTAKE', description: 'Order Intake', buckets: Array(2), ui: {…}, id: '534b4247-59d3-e033-a19c-e43dc0d2bbca', …}
+        buckets :(2) [{…}, {…}]
+        description:"Order Intake"
+        id:"534b4247-59d3-e033-a19c-e43dc0d2bbca"
+        name:"ORDER_INTAKE"
+        ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+        _uidata:{position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}
+    isEntry:undefined
+
+    inBucketIds:['534b4242-5812-445e-a19c-e4146331dec8']
+    x:1
+    y:6
+    previousBucketGroup: {name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c', …}
+        buckets:(2) [{…}, {…}]
+        description:"Chip Planning"
+        id:"534b4247-5882-ba52-a19c-e42a48b07a2c"
+        name:"SYN_00"
+        ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+        _uidata:{position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}
+    
+    isEntry:undefined
+
+
+
+
+
+
+# -- in coordinateAndLinkBucketGroups() 
+# -- LINE:318
+wfObj is
+
+    {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …}
+    bucketGroupsByInBucketMap: {534b4242-5fa9-92f2-99ac-7f000a836cf8: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd15f2: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1601: {…}, 534b4242-5a6a-84b0-f6a1-ac2415a632cc: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1607: {…}, …}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0fe5:{name: 'PCA_105', description: 'PCA/PCR Master Mix Creation', buckets: Array(2), ui: {…}, id: '534b4247-5a1c-adfc-f6a1-ac3e581f0fe4', …}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0fe9:{name: 'PCA_58', description: 'PCA/PCR Master Mix Addition', buckets: Array(3), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dee1', …}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0fec:{name: 'ECR_106', description: 'ECR/PCR Master Mix Creation', buckets: Array(2), ui: {…}, id: '534b4247-5a1c-adfc-f6a1-ac3e581f0feb', …}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0ff0:{name: 'ECR_70', description: 'ECR/PCR Master Mix Addition', buckets: Array(3), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df0e', …}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0ff3:{name: 'OLIGO_QC_UPLOAD', description: 'OLGP QC Upload', buckets: Array(2), ui: {…},id: '534b4247-5a1c-adfc-f6a1-ac3e581f0ff2', …}
+        534b4242-5882-ba52-a19c-e42a48b07a2d:{name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c', …}
+     
+        534b4242-59d3-e033-a19c-e43dc0d2bbcb:{
+            name:"ORDER_INTAKE",
+            description:"Order Intake",
+            buckets:(2) [
+                0:{name: 'in', description: 'Order Intake', direction: 'input', path: null, ui: {…}, hold:false,id:"534b4242-59d3-e033-a19c-e43dc0d2bbcb",item_count:45,item_type:"order"}
+                1:{name: 'out', description: 'Order Intake', direction: 'output', path: null, ui: {…}, processed:true,hold:false,id:"534b4242-59d3-e033-a19c-e43dc0d2bbcc",item_count:0,item_type:"cluster_design"}
+            ],
+            id:"534b4247-59d3-e033-a19c-e43dc0d2bbca",
+            ui:{size_x: null, size_y: null, position_x: null, position_y: null},
+            _uidata:{
+                nextBucketGroups:{
+                    534b4247-5882-ba52-a19c-e42a48b07a2c:{
+                        buckets:(2) [{…}, {…}]
+                        description:"Chip Planning"
+                        id:"534b4247-5882-ba52-a19c-e42a48b07a2c"
+                        name:"SYN_00"
+                        ui:{}
+                        _uidata:{
+                            nextBucketGroups:{
+                                534b4247-5812-445e-a19c-e4146331dec7:buckets:(2) [{…}, {…}]
+                                description:"CHP Synthesis"
+                                id:"534b4247-5812-445e-a19c-e4146331dec7"
+                                name:"SYN_01"
+                                ui:{}
+                                _uidata:{
+                                    nextBucketGroups:{
+                                        534b4247-5812-445e-a19c-e4146331deca:
+                                        buckets:(2) [{…}, {…}]
+                                        description:"CHP Deprotection"
+                                        id:"534b4247-5812-445e-a19c-e4146331deca"
+                                        name:"CHP_62"
+                                        ui:{}
+                                        _uidata:{
+                                            nextBucketGroups:{
+                                                534b4247-5812-445e-a19c-e4146331decd:
+                                                buckets:(16) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+                                                description:"CHP Extraction - Titin"
+                                                id:"534b4247-5812-445e-a19c-e4146331decd"
+                                                name:"CHP_52"
+                                                ui:{}
+                                                _uidata: {
+                                                    nextBucketGroups: {
+                                                        534b4247-5c92-dcfc-e549-92cc8a28c121:{name: 'TEA_01', description: 'TEA Resuspension', buckets: Array(2), ui: {…}, id: '534b4247-5c92-dcfc-e549-92cc8a28c121', …}
+                                                        534b4247-5c92-dcfc-e549-92cc8a28c127:{name: 'TEA_03', description: 'TEA MM Creation', buckets: Array(4), ui: {…}, id: '534b4247-5c92-dcfc-e549-92cc8a28c127', …}
+                                                        534b4247-58b5-0fde-a19c-e4007742358b:{name: 'RES_01', description: 'Research', buckets: Array(2), ui: {…}, id: '534b4247-58b5-0fde-a19c-e4007742358b', …}
+                                                        534b4247-58b5-0fde-a19c-e40077423589:{name: 'QC_01', description: 'OQC Transfer NGS Controls', buckets: Array(4), ui: {…}, id: '534b4247-58b5-0fde-a19c-e40077423589', …}
+                                                        534b4247-58b8-804e-a19c-e410a4eac333:{name: 'NGSQC_01', description: 'NGS QC', buckets: Array(2), ui: {…}, id: '534b4247-58b8-804e-a19c-e410a4eac333', …}
+                                                        534b4247-58b8-804e-a19c-e410a4eac336:{name: 'MSQC_01', description: 'Mass Spec QC', buckets: Array(2), ui: {…}, id: '534b4247-58b8-804e-a19c-e410a4eac336', …}
+                                                        534b4247-58ed-6972-a19c-e485340c61f6:{name: 'LIB_01', description: 'Libraries', buckets: Array(2), ui: {…}, id: '534b4247-58ed-6972-a19c-e485340c61f6', …}
+                                                        534b4247-62c6-8f92-20a8-70000b126c44:{name: 'MRD_CHPX_TUBES', description: 'MRD CHPx to Tubes', buckets: Array(2), ui: {…}, id: '534b4247-62c6-8f92-20a8-70000b126c44', …}
+                                                        534b4247-5812-445e-a19c-e4146331ded1:{name: 'PCA_53', description: 'PCA Planning', buckets: Array(5), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331ded1', …}
+                                                        534b4247-5812-445e-a19c-e4146331df94:{name: 'OLGP_96', description: 'OLGP Planning for Oligo Pooling', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df94', …}
+                                                    }
+                                                position:{x: 1, y: 8}
+                                                previousBucketGroups:{
+                                                    534b4247-5812-445e-a19c-e4146331deca:{
+                                                        buckets:(2) [{…}, {…}]
+                                                        description:"CHP Deprotection"
+                                                        id:"534b4247-5812-445e-a19c-e4146331deca"
+                                                        name:"CHP_62"
+                                                        ui:{}
+                                                        _uidata:{
+                                                            nextBucketGroups:{
+                                                                534b4247-5812-445e-a19c-e4146331decd:{name: 'CHP_52', description: 'CHP Extraction - Titin', buckets: Array(16), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331decd', …}
+                                                            }
+                                                            position:{x: 0, y: 8}
+                                                            previousBucketGroups:{
+                                                                534b4247-5812-445e-a19c-e4146331dec7:{name: 'SYN_01', description: 'CHP Synthesis', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dec7', …}
+                                                            }
+                                                        }    
+                                                    }
+                                                }
+                                                }
+                                            }
+                                            position:{x: 0, y: 8}
+                                            previousBucketGroups:{
+                                                534b4247-5812-445e-a19c-e4146331dec7:{name: 'SYN_01', description: 'CHP Synthesis', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dec7', …}
+                                            }
+                                        }
+                                    }
+                                    position:{x: 0, y: 7}
+                                    previousBucketGroups:{
+                                        534b4247-5882-ba52-a19c-e42a48b07a2c:{name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c', …}
+                                    }
+                                }
+                            }
+                            position:{x: 0, y: 6}
+                            previousBucketGroups:{
+                                534b4247-59d3-e033-a19c-e43dc0d2bbca:{name: 'ORDER_INTAKE', description: 'Order Intake', buckets: Array(2), ui: {…}, id: '534b4247-59d3-e033-a19c-e43dc0d2bbca', …}
+                            }
+                        }
+                        
+                    }  
+                    
+                }
+                position:{x: 0, y: 5}
+                previousBucketGroups:{}
+                
+            }
+        }   
+        .......
+
+    bucket_group_sets: (18) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+    bucket_groups: (282) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…},  {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+    bucketsMap: {534b4242-5a39-7248-f6a1-ac0b39dd15f3: {…}, 534b4242-5fa9-92f2-99ac-7f000a836cf8: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd15f2: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1601: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1602: {…}, …}
+    description: "beta synthesis workflow"
+    endPoints: {534b4247-5899-e9f9-a19c-e477dd68f861: {…}, 534b4247-59d3-e033-a19c-e43dc0d2bbc6: {…}, 534b4247-5812-445e-a19c-e4146331df91: {…}, 534b4247-5bd8-d6d7-f6a1-ac8763c7dfbd: {…}, 534b4247-5db1-d68a-d2b1-c50009b63f00: {…}, …}
+    entryPoints: {
+        534b4247-59d3-e033-a19c-e43dc0d2bbca:{
+            buckets:(2) [{…}, {…}]
+            description:"Order Intake"
+            id:"534b4247-59d3-e033-a19c-e43dc0d2bbca"
+            name:"ORDER_INTAKE"
+            ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+            _uidata:{position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}
+        }
+
+    }
+    entry_bucket_id: "534b4242-59d3-e033-a19c-e43dc0d2bbcb"
+    id: "534b4257-5812-445e-a19c-e4146331dec6"
+    name: "beta"
+    site_id: "144ec6fa-33b7-423a-8a4e-4c378563f3f9"
+    transitionBySourceMap: {
+        534b4242-59d3-e033-a19c-e43dc0d2bbcc:{destination_bucket_id: '534b4242-5882-ba52-a19c-e42a48b07a2d', source_bucket_id: '534b4242-59d3-e033-a19c-e43dc0d2bbcc', ui: {…}, id: '534b4254-59d3-e033-a19c-e43dc0d2bbcd', mode: 'auto'}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0fe6:{destination_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0fe9', source_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0fe6', ui: {…}, id: '534b4254-5a1c-adfc-f6a1-ac3e581f0fea', mode: 'auto'}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0fe7:{destination_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0fe5', source_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0fe7', ui: {…}, id: '534b4254-5a1c-adfc-f6a1-ac3e581f0fe8', mode: 'auto'}
+        534b4242-5a1c-adfc-f6a1-ac3e581f0fed:{destination_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0ff0', source_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0fed', ui: {…}, id: '534b4254-5a1c-adfc-f6a1-ac3e581f0ff1', mode: 'auto'}
+        
+        534b4242-5812-445e-a19c-e4146331df59:{destination_bucket_id: '534b4242-5812-445e-a19c-e4146331df5b', source_bucket_id: '534b4242-5812-445e-a19c-e4146331df59', ui: {…}, id: '534b4254-5812-4460-a19c-e4146331dfcb', mode: 'auto'}
+         …
+        }
+    transitions: (349) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+    version: 134
+    _uidata: {minY: 0, maxY: 13.25, maxX: 76.4}
+
+
+
+
+
+
+
+
+
+
+    # -- Line 353 onward________
+    # -- in const newInBucketIds
+    bucketGroup:{.......}
+                        buckets:(2) [
+                            0:{
+                                description:"Order Intake"
+                                direction:"input"
+                                hold:false
+                                id:"534b4242-59d3-e033-a19c-e43dc0d2bbcb"
+                                item_type:"order"
+                                name:"in"
+                                path:null
+                                ui: {}
+                            }
+                            1:{
+                                description:"Order Intake"
+                                direction:"output"
+                                hold:false
+                                id:"534b4242-59d3-e033-a19c-e43dc0d2bbcc"
+                                item_type:"cluster_design"
+                                name:"out"
+                                path:null
+                                processed:true
+                                ui:{}
+                            }
+                        ]
+                        description:"Order Intake"
+                        id:"534b4247-59d3-e033-a19c-e43dc0d2bbca"
+                        name:"ORDER_INTAKE"
+                        ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+                        _uidata:{position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}
+
+
+
+# -- if (wfObj.transitionBySourceMap[cur.id] && !cur.processed) Line:361
+->>{
+    destination_bucket_id: '534b4242-5882-ba52-a19c-e42a48b07a2d', 
+    source_bucket_id: '534b4242-59d3-e033-a19c-e43dc0d2bbcc', 
+    ui: {…}, 
+    id: '534b4254-59d3-e033-a19c-e43dc0d2bbcd', 
+    mode: 'auto'
+    }
+    undefined
+
+->>{
+    destination_bucket_id: '534b4242-5812-445e-a19c-e4146331dec8', 
+    source_bucket_id: '534b4242-5882-ba52-a19c-e42a48b07a2e', 
+    ui: {…}, 
+    id: '534b4254-5882-ba52-a19c-e42a48b07a2f', 
+    mode: 'auto'
+    } 
+    undefined 
+
+->>{
+    destination_bucket_id: '534b4242-5812-445e-a19c-e4146331decb', 
+    source_bucket_id: '534b4242-5812-445e-a19c-e4146331dec9', 
+    ui: {…}, 
+    id: '534b4254-5812-445f-a19c-e4146331df9a', 
+    mode: 'auto'
+    } 
+    undefined
+
+
+
+
+
+# -- const nextBucket=wfObj.bucketGroupsByInBucketMap[pre[pre.length - 1]];
+nextBucket
+{
+    buckets:(2) [{…}, {…}]
+    description:"Chip Planning"
+    id:"534b4247-5882-ba52-a19c-e42a48b07a2c"
+    name:"SYN_00"
+    ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+    _uidata:{position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}
+}
+
+
+const newInBucketIds=
+# -- its length is not always 1
+->>['534b4242-5882-ba52-a19c-e42a48b07a2d'] 
+
+->>['534b4242-5812-445e-a19c-e4146331dec8']
+
+->>['534b4242-5812-445e-a19c-e4146331decb']
+
+
+
+
+LINE 385
+
+->>>['534b4242-5882-ba52-a19c-e42a48b07a2d'] for newInBucketIds
+->>>['534b4242-5812-445e-a19c-e4146331dec8'] for newInBucketIds
+->>>['534b4242-5812-445e-a19c-e4146331decb']
+->>>
+->>>(13)['534b4242-6271-add1-2977-44000f6d5e60', '534b4242-6274-625c-2977-44000f6d7128', '534b4242-63fd-2b31-982e-bb03e2d82613', '534b4242-5812-445e-a19c-e4146331ded2', '534b4242-58ed-6972-a19c-e485340c61f7', '534b4242-62c6-8f92-20a8-70000b126c45', '534b4242-58b8-804e-a19c-e410a4eac337', '534b4242-644b-08e2-d2d9-e5c0ed8ec345', '534b4242-58b8-804e-a19c-e410a4eac334', '534b4242-5812-445e-a19c-e4146331df95', '534b4242-58b5-0fde-a19c-e4007742358a', '534b4242-58b5-0fde-a19c-e4007742358c', '534b4242-5c92-dcfc-e549-92cc8a28c122'] 
+->>>(4)['534b4242-5a1c-adfc-f6a1-ac3e581f0fe5', '534b4242-5812-445e-a19c-e4146331ded9', '534b4242-5a58-0ec4-f6a1-ac747c26231b', '534b4242-5812-445e-a19c-e4146331ded6']
+
+if (previousBucketGroup)
+                        ->>>null 
+                        ->>>{name: 'ORDER_INTAKE', description: 'Order Intake', buckets: Array(2), ui: {…}, id: '534b4247-59d3-e033-a19c-e43dc0d2bbca', …} 
+                        ->>>{name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c', …}
+                        ->>>
+                        ->>>{name: 'CHP_62', description: 'CHP Deprotection', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331deca', …}
+                        ->>>{name: 'CHP_52', description: 'CHP Extraction - Titin', buckets: Array(16), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331decd', …}
+ 
+ if (isEntry)
+            ->>>true 
+            ->>>undefined
+            ->>>undefined
+            ->>>
+            ->>>undefined
+            ->>>undefined
+
+ if (newInBucketIds.length)
+                           ->>> 1 
+                           ->>> 1
+                           ->>> 1
+                           ->>>
+                           ->>>13
+                           ->>>4
+
+
+
+
+
+
+
+
+
+
+# -- "workflow-graph.js render() is called"
+
+
+# -- "this.state.workflow in buildWorkflowGraphML()"
+
+{name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …}
+bucketGroupsByInBucketMap:{534b4242-5fa9-92f2-99ac-7f000a836cf8: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd15f2: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1601: {…}, 534b4242-5a6a-84b0-f6a1-ac2415a632cc: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1607: {…}, …}
+bucket_group_sets:(18) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+
+# -- names(ADA_01,ADA_06,.....) are in ascending order
+# -- in the buckets "out" has processed:true
+bucket_groups:(282) 
+    [
+        0:{
+            
+            buckets{
+                    0:{name: 'in', description: 'ADO Hitpick Template', direction: 'input', path: null, ui: {…}, …}
+                    1:{name: 'out', description: 'ADO Hitpick Template', direction: 'output', path: null, ui: {…}, …}
+                    2:{name: 'plan', description: null, direction: 'input', path: null, ui: {…}, …}
+            }
+
+            description:"ADO Template & Primer Hitpicking"
+            id:"534b4247-5a39-7248-f6a1-ac0b39dd15f1"
+            name:"ADA_01"
+            ui:{size_x: null, size_y: null, position_x: null, position_y: null}
+            _uidata:{
+                nextBucketGroups:{
+                    534b4247-5a83-3c3b-f6a1-ac7e8ac60167:{name: 'ADA_HIFI_MM_CREATION', description: 'ADO HiFi Master Mix Creation', buckets: Array(3), ui: {…}, id: '534b4247-5a83-3c3b-f6a1-ac7e8ac60167', …}
+                }
+                position:{x: 22.9, y: 8.25}
+                previousBucketGroups:{534b4247-5fa9-92f2-99ac-7f000a836cf2: {…}}
+            }
+                
+        }
+        1:{name: 'ADA_06', description: 'ADA Buffer and Enzyme Addition', buckets: Array(3), ui: {…}, id: '534b4247-5a39-7248-f6a1-ac0b39dd1600'}
+        2:{name: 'ADA_08', description: 'ADO HiFI Master Mix Addition', buckets: Array(3), ui: {…}, id: '534b4247-5a39-7248-f6a1-ac0b39dd1606', …}
+        3:{name: 'ADA_09', description: 'ADO Thermocycling', buckets: Array(2), ui: {…}, id: '534b4247-5a39-7248-f6a1-ac0b39dd1609', …}
+        4:{name: 'ADA_10', description: 'ADO Purification', buckets: Array(2), ui: {…}, id: '534b4247-5a39-7248-f6a1-ac0b39dd160c', …}
+       
+    .....
+    ]
+bucketsMap:{534b4242-5a39-7248-f6a1-ac0b39dd15f3: {…}, 534b4242-5fa9-92f2-99ac-7f000a836cf8: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd15f2: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1601: {…}, 534b4242-5a39-7248-f6a1-ac0b39dd1602: {…}, …}
+description:"beta synthesis workflow"
+endPoints:{534b4247-5899-e9f9-a19c-e477dd68f861: {…}, 534b4247-59d3-e033-a19c-e43dc0d2bbc6: {…}, 534b4247-5812-445e-a19c-e4146331df91: {…}, 534b4247-5bd8-d6d7-f6a1-ac8763c7dfbd: {…}, 534b4247-5db1-d68a-d2b1-c50009b63f00: {…}, …}
+entryPoints:{534b4247-59d3-e033-a19c-e43dc0d2bbca: {…}}
+entry_bucket_id:"534b4242-59d3-e033-a19c-e43dc0d2bbcb"
+id:"534b4257-5812-445e-a19c-e4146331dec6"
+name:"beta"
+site_id:"144ec6fa-33b7-423a-8a4e-4c378563f3f9"
+transitionBySourceMap:{534b4242-5812-445e-a19c-e4146331df96: {…}, 534b4242-5812-445e-a19c-e4146331df2d: {…}, 534b4242-5c54-ffbf-37ce-ae363b82454b: {…}, 534b4242-5812-445e-a19c-e4146331def1: {…}, 534b4242-5812-445e-a19c-e4146331df1e: {…}, …}
+transitions:(349) [  {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …]
+version:134
+_uidata:{minY: 0, maxY: 13.25, maxX: 76.4}
+
+
+# -- 281 'steps.length'
+
+# -- "this.state.workflow in componentDidMount() is called"
+same in this.state.workflow in buildWorkflowGraphML()
+# -- "workflow-graph.js render() is again called"
+
+const newInBucketIds
+# buckets{} which are having name:in and storing its ids in newInBucketIds
+->['534b4242-5882-ba52-a19c-e42a48b07a2d'] id of 'Chip Planning'
+
+-> ['534b4242-5812-445e-a19c-e4146331dec8'] 'CHP Synthesis'
+
+-> ['534b4242-5812-445e-a19c-e4146331decb'] 'CHP Deprotection'
+
+-> ['534b4242-5812-445e-a19c-e4146331dece'] 'CHP Extraction - Titin'
+
+->(13)[
+    '534b4242-6271-add1-2977-44000f6d5e60',
+ '534b4242-6274-625c-2977-44000f6d7128', 
+ '534b4242-63fd-2b31-982e-bb03e2d82613', 
+ '534b4242-5812-445e-a19c-e4146331ded2', 
+ '534b4242-58ed-6972-a19c-e485340c61f7', 
+ '534b4242-62c6-8f92-20a8-70000b126c45', 
+ '534b4242-58b8-804e-a19c-e410a4eac337', 
+ '534b4242-644b-08e2-d2d9-e5c0ed8ec345', 
+ '534b4242-58b8-804e-a19c-e410a4eac334', 
+ '534b4242-5812-445e-a19c-e4146331df95', 
+ '534b4242-58b5-0fde-a19c-e4007742358a', 
+ '534b4242-58b5-0fde-a19c-e4007742358c', 
+ '534b4242-5c92-dcfc-e549-92cc8a28c122'
+ ] 
+
+
+
+
+
+
+
+
+
+
+ pre.push(wfObj.transitionBySourceMap[cur.id].destination_bucket_id)
+# 534b4242-5812-445e-a19c-e4146331df59--output id of "RCA First Dilution on Multiflow"
+# wfObj.transitionBySourceMap[cur.id] is
+534b4242-5812-445e-a19c-e4146331df59:{destination_bucket_id: '534b4242-5812-445e-a19c-e4146331df5b', source_bucket_id: '534b4242-5812-445e-a19c-e4146331df59', ui: {…}, id: '534b4254-5812-4460-a19c-e4146331dfcb', mode: 'auto'}
+# pre[] containing
+['534b4242-5812-445e-a19c-e4146331df5b'] 
+
+
+# ['534b4242-5812-445e-a19c-e4146331dece']destination id of wfObj.transitionBySourceMap[534b4242-5812-445e-a19c-e4146331decc]cur.id is  the CHP Deprotection
+# nextBucket will be--> 534b4242-5812-445e-a19c-e4146331dece:{name: 'CHP_52', description: 'CHP Extraction - Titin', buckets: Array(16), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331decd', …}
+                        # 534b4242-5812-445e-a19c-e4146331dece:
+                        #     buckets:(16) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+                        #     description:"CHP Extraction - Titin"
+                        #     id:"534b4247-5812-445e-a19c-e4146331decd"
+                        #     name:"CHP_52"
+                        #     ui:{}
+                        #     _uidata:{
+                        #         nextBucketGroups:{534b4247-5812-445e-a19c-e4146331ded1: {…}, 534b4247-58ed-6972-a19c-e485340c61f6: {…}, 534b4247-62c6-8f92-20a8-70000b126c44: {…}, 534b4247-58b8-804e-a19c-e410a4eac336: {…}, 534b4247-5c92-dcfc-e549-92cc8a28c127: {…}, …}
+                        #         position:{x: 1, y: 8}
+                        #         previousBucketGroups:{534b4247-5812-445e-a19c-e4146331deca: {…}}
+                        #     }
+
+const nextBucket = wfObj.bucketGroupsByInBucketMap[pre[pre.length - 1]];
+#  nextBucket contains
+
+->>>{
+    534b4242-5812-445e-a19c-e4146331df5b:{
+        buckets:(3) [
+            0:{name: 'in', description: null, direction: 'input', path: null, ui: {…}, …}
+            1:{name: 'out', description: null, direction: 'output', path: null, ui: {…}, …}
+            2:{name: 'to_hiRes', description: null, direction: 'output', path: null, ui: {…}, …}
+        ]
+        description:"RCA Cybio Dilution"
+        id:"534b4247-5812-445e-a19c-e4146331df5a"
+        name:"RCA_24"
+        ui:{}
+        _uidata:{
+            nextBucketGroups:{
+                534b4247-5be0-d73c-f6a1-acbeffea83ae:{name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …}
+            
+                # 534b4242-5c75-ef3b-f6a1-acb5e9c524e4:{name: 'NGS_TAG_MM_CREATION', description: 'NGS Tag mastermix creation', buckets: Array(2), ui: {…}, id: '534b4247-5c75-ef3b-f6a1-acb5e9c524e3'}
+                #in this NGS Tag mastermix creation there is no _uidata{}
+            }
+            position:{x: 52.4, y: 1}
+            previousBucketGroups:{
+                534b4247-5812-445e-a19c-e4146331df57:{name: 'RCA_23', description: 'RCA First Dilution on Multiflow', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df57', …}
+            }
+        }
+    }
+
+}
+
+
+
+
+ bucketGroup._uidata.nextBucketGroups[nextBucket.id] = nextBucket;
+#  bucketGroup contains
+{
+    buckets:(3) [{…}, {…}, {…}]
+    description:"RCA Cybio Dilution"
+    id:"534b4247-5812-445e-a19c-e4146331df5a"
+    name:"RCA_24"
+    ui:{}
+    _uidata:{
+        nextBucketGroups:{
+            534b4247-5be0-d73c-f6a1-acbeffea83ae:{name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …}
+        }
+        position:{x: 52.4, y: 1}
+        previousBucketGroups:{
+            534b4247-5812-445e-a19c-e4146331df57:{name: 'RCA_23', description: 'RCA First Dilution on Multiflow', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df57', …}
+        }
+    }
+}
+
+
+
+
+
+
+
+*****************CONSOLES IN EACH LINE OF  coordinateAndLinkBucketGroups()*********************
+initially:
+534b4242-59d3-e033-a19c-e43dc0d2bbcb -"bucketId"
+
+'wfObj'-> {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), entry_bucket_id:"534b4242-59d3-e033-a19c-e43dc0d2bbcb", …} 
+
+'bucketGroup'-> {name: 'ORDER_INTAKE', description: 'Order Intake', buckets: Array(2), ui: {…}, id: '534b4247-59d3-e033-a19c-e43dc0d2bbca'} 
+ 
+ 'pre[]'-> ['534b4242-5882-ba52-a19c-e42a48b07a2d'] 
+
+ 'nextBucket'-> {name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c'} 
+
+'bucketGroup._uidata.nextBucketGroups[nextBucket.id]'->  {name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c'} 
+
+ 'wfObj.entryPoints[bucketGroup.id]'-> undefined 
+ 
+ ***'newInBucketIds'->>>['534b4242-5882-ba52-a19c-e42a48b07a2d'] 
+534b4242-5882-ba52-a19c-e42a48b07a2d "bucketId" in func call
+
+ 'wfObj'-> {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349),entry_bucket_id:"534b4242-59d3-e033-a19c-e43dc0d2bbcb", …}
+
+'bucketGroup'-> {name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c'}
+
+ 'pre[]'-> ['534b4242-5812-445e-a19c-e4146331dec8']
+
+ 'nextBucket'-> {name: 'SYN_01', description: 'CHP Synthesis', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dec7'}
+
+'bucketGroup._uidata.nextBucketGroups[nextBucket.id]'->  {name: 'SYN_01', description: 'CHP Synthesis', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dec7'}
+
+ 'bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'-> {name: 'ORDER_INTAKE', description: 'Order Intake', buckets: Array(2), ui: {…}, id: '534b4247-59d3-e033-a19c-e43dc0d2bbca', …} 
+
+ ***'newInBucketIds'->>>['534b4242-5812-445e-a19c-e4146331dec8'] 
+ 534b4242-5812-445e-a19c-e4146331dec8 bucketId
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+{name: 'SYN_01', description: 'CHP Synthesis', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331dec7'} 'bucketGroup'
+ ['534b4242-5812-445e-a19c-e4146331decb'] 'pre[]'
+{name: 'CHP_62', description: 'CHP Deprotection', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331deca'} 'nextBucket'
+ {name: 'CHP_62', description: 'CHP Deprotection', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331deca'} 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]'
+{name: 'SYN_00', description: 'Chip Planning', buckets: Array(2), ui: {…}, id: '534b4247-5882-ba52-a19c-e42a48b07a2c', …}buckets: (2) [{…}, {…}]0: {name: 'in', description: null, direction: 'input', path: null, ui: {…}, …}1: {name: 'out', description: null, direction: 'output', path: null, ui: {…}, …}length: 2[[Prototype]]: Array(0)description: "Chip Planning"id: "534b4247-5882-ba52-a19c-e42a48b07a2c"name: "SYN_00"ui: {size_x: null, size_y: null, position_x: null, position_y: null}_uidata: {position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}[[Prototype]]: Object ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+******'newInBucketIds'->>>> ['534b4242-5812-445e-a19c-e4146331decb'] 
+
+++++
+++++++++++
+++++++++++++++++
+
+at RCA First Dilution on Multiflow_____________________________
+534b4242-5812-445e-a19c-e4146331df58 ->"bucketId"in the func
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'RCA_23', description: 'RCA First Dilution on Multiflow', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df57'} 'bucketGroup'
+ ['534b4242-5812-445e-a19c-e4146331df5b'] 'pre[]'
+ {name: 'RCA_24', description: 'RCA Cybio Dilution', buckets: Array(3), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df5a'} 'nextBucket'
+ {name: 'RCA_24', description: 'RCA Cybio Dilution', buckets: Array(3), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df5a'} 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]'
+ {name: 'RCA_DENATURATION', description: 'RCA Denaturation', buckets: Array(2), ui: {…}, id: '534b4247-5b91-c58a-f6a1-acd3bee0d9c8', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+ *******'newInBucketIds'->>>>>['534b4242-5812-445e-a19c-e4146331df5b'] 
+
+ at RCA Cybio Dilution_____________________________________________________________________________________
+ 534b4242-5812-445e-a19c-e4146331df5b "bucketId"
+ 'wfObj'-> {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 
+
+ 'bucketGroup'-> {name: 'RCA_24', description: 'RCA Cybio Dilution', buckets: Array(3), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df5a'} 
+
+ ['534b4242-5be0-d73c-f6a1-acbeffea83af'] 'pre[]'
+
+ 'nextBucket'->{name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …} 
+
+ 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]'->{name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …} 
+
+(2)['534b4242-5be0-d73c-f6a1-acbeffea83af', '534b4242-5be0-d73c-f6a1-acbeffea83af'] 'pre[]'
+
+ 'nextBucket'-> {name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …} 
+
+ 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]'-> {name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …} 
+
+ 'bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'->{name: 'RCA_23', description: 'RCA First Dilution on Multiflow', buckets: Array(2), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df57', …} 
+
+*******'newInBucketIds'->>>(2)['534b4242-5be0-d73c-f6a1-acbeffea83af','534b4242-5be0-d73c-f6a1-acbeffea83af'] 
+ 534b4242-5be0-d73c-f6a1-acbeffea83af "bucketId"
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'NGS_ENZYME', description: 'NGS Enzyme Plate', buckets: Array(3), ui: {…}, id: '534b4247-5be0-d73c-f6a1-acbeffea83ae', …} 'bucketGroup'
+ {name: 'RCA_24', description: 'RCA Cybio Dilution', buckets: Array(3), ui: {…}, id: '534b4247-5812-445e-a19c-e4146331df5a', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+ undefined ' wfObj.endPoints[bucketGroup.id]'
+
+
+
+
+ ****soloIds*****
+ (37)
+ ['534b4242-5a39-7248-f6a1-ac0b39dd1601', '534b4242-5a6a-84b0-f6a1-ac2415a632c8', '534b4242-5812-445e-a19c-e4146331df98', '534b4242-5fa9-92f2-99ac-7f000a836cec', '534b4242-5fa9-92f2-99ac-7f000a836cf8', '534b4242-5bc5-2141-f6a1-ac83f146c6a8', '534b4242-5812-445e-a19c-e4146331df86', '534b4242-6167-7962-03ba-09000a129405', '534b4242-5ee8-121e-e477-080008e1899d', '534b4242-648b-b944-6b08-49df980593ad', '534b4242-5c3d-33d3-eaad-56c29f7f2907', '534b4242-5eff-738f-f330-740008027410', '534b4242-5938-89c2-a19c-e45761029019', '534b4242-5bc5-2141-f6a1-ac83f146c69a', '534b4242-58b8-804e-a19c-e410a4eac33c', '534b4242-617c-4741-1891-b6000b37f1b0', '534b4242-617c-4741-1891-b6000b37f1be', '534b4242-617c-4741-1891-b6000b37f1b6', '534b4242-5e3a-187c-d63b-f50009d5472d', '534b4242-5b72-22b7-f6a1-ac67b0a7fecb', '534b4242-5846-ee85-a19c-e417e828ef7b', '534b4242-6441-e53f-7224-e8dd0cc8c0a2', '534b4242-5938-89c2-a19c-e4576102900f', '534b4242-5afb-2bd5-ac65-974e0c2ec13f', '534b4242-5846-ee85-a19c-e417e828ef7f', '534b4242-6035-4e7e-c779-61000a2ca28b', '534b4242-6035-4e7e-c779-61000a2ca288', '534b4242-6035-4e7e-c779-61000a2ca285', '534b4242-644b-098d-d2d9-e5c0ed8ec783', '534b4242-644b-09ef-3b72-17eb927e356c', '534b4242-644b-0a68-cd76-b55bd7848541', '534b4242-5c92-dcfc-e549-92cc8a28c14b', '534b4242-627a-f999-2606-8d000c04973a', '534b4242-627a-f999-2606-8d000c049738', '534b4242-61e5-d461-55f1-c4000bae8c0c', '534b4242-61e5-d461-55f1-c4000bae8c18', '534b4242-6099-d447-3ddb-cf000ba54243']
+
+
+*******OLGP QC UPLOAD*******
+
+534b4242-5a39-7247-f6a1-ac0b39dd15e1 "bucketId" og OLGP Resuspension
+{name: 'OLGP_BEFORE_QC_RESUSPEND', description: 'OLGP Resuspension', buckets: Array(3), ui: {…}, id: '534b4247-5a39-7247-f6a1-ac0b39dd15e0'}buckets: (3) [{…}, {…}, {…}]description: "OLGP Resuspension"id: "534b4247-5a39-7247-f6a1-ac0b39dd15e0"name: "OLGP_BEFORE_QC_RESUSPEND"ui: {size_x: null, size_y: null, position_x: null, position_y: null}_uidata: {position: {…}, previousBucketGroups: {…}, nextBucketGroups: {…}}[[Prototype]]: Object 'bucketGroup'
+['534b4242-5a1c-adfc-f6a1-ac3e581f0ff3'] 'pre[]-else'
+(2) ['534b4242-5a1c-adfc-f6a1-ac3e581f0ff3', '534b4242-5938-89c2-a19c-e45761029013'] 'pre[]-else'
+# 2-output ids of olgp resuspension in wfObj.transitionBySourceMap is
+# 534b4242-5a39-7247-f6a1-ac0b39dd15e2:{destination_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0ff3', source_bucket_id: '534b4242-5a39-7247-f6a1-ac0b39dd15e2', ui: {…}, id: '534b4254-5a39-7248-f6a1-ac0b39dd15e7', mode: 'auto'}
+# 534b4242-5a39-7247-f6a1-ac0b39dd15e3:{destination_bucket_id: '534b4242-5938-89c2-a19c-e45761029013', source_bucket_id: '534b4242-5a39-7247-f6a1-ac0b39dd15e3', ui: {…}, id: '534b4254-5a39-7248-f6a1-ac0b39dd15e6', mode: 'auto'}
+
+
+534b4242-5a1c-adfc-f6a1-ac3e581f0ff3 "bucketId"
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'OLIGO_QC_UPLOAD', description: 'OLGP QC Upload', buckets: Array(2), ui: {…}, id: '534b4247-5a1c-adfc-f6a1-ac3e581f0ff2'} 'bucketGroup'
+ ['534b4242-5fff-d462-ef02-b8000b8a24cc'] 'pre[]-else'
+ {name: 'OLGP_QC_FAIL', description: 'OLGP QC Fail', buckets: Array(2), ui: {…}, id: '534b4247-5fff-d462-ef02-b8000b8a24cb'} 'nextBucket-else'
+ {name: 'OLGP_QC_FAIL', description: 'OLGP QC Fail', buckets: Array(2), ui: {…}, id: '534b4247-5fff-d462-ef02-b8000b8a24cb'} 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]-else()'
+ {name: 'OLGP_BEFORE_QC_RESUSPEND', description: 'OLGP Resuspension', buckets: Array(3), ui: {…}, id: '534b4247-5a39-7247-f6a1-ac0b39dd15e0', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+ ['534b4242-5fff-d462-ef02-b8000b8a24cc'] 'newInBucketIds'
+#  ['534b4242-5fff-d462-ef02-b8000b8a24cc','534b4242-5a1c-adfc-f6a1-ac3e581f0ff6'] have to pass like this
+# ACTUALLY THIS GROUPBUCKET HAS ONLY ONE "out" bucket id,thats the reason other id is not found in wfObj.transitionBySourceMap[]
+# In wfObj.transitionBySourceMap[outputId of OLGP QC Fail] is
+# 534b4242-5a1c-adfc-f6a1-ac3e581f0ff4:{destination_bucket_id: '534b4242-5fff-d462-ef02-b8000b8a24cc', source_bucket_id: '534b4242-5a1c-adfc-f6a1-ac3e581f0ff4', ui: {…}, id: '534b4254-5fff-d462-ef02-b8000b8a24ce', mode: 'manual'}
+
+ ['534b4242-5fff-d462-ef02-b8000b8a24cc'] 'inBucketIds as param in func'
+ 8 11 {name: 'OLIGO_QC_UPLOAD', description: 'OLGP QC Upload', buckets: Array(2), ui: {…}, id: '534b4247-5a1c-adfc-f6a1-ac3e581f0ff2', …} undefined 'x, y, previousBucketGroup, isEntry'
+ 534b4242-5fff-d462-ef02-b8000b8a24cc bucketId
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'OLGP_QC_FAIL', description: 'OLGP QC Fail', buckets: Array(2), ui: {…}, id: '534b4247-5fff-d462-ef02-b8000b8a24cb'} 'bucketGroup'
+ {name: 'OLIGO_QC_UPLOAD', description: 'OLGP QC Upload', buckets: Array(2), ui: {…}, id: '534b4247-5a1c-adfc-f6a1-ac3e581f0ff2', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+ undefined ' wfObj.endPoints[bucketGroup.id]'
+
+********AUTO TRASH PLATE HOLIDING******** if (nextBucket.name === BUCKET_NAME_AUTO_TRASH){}
+534b4242-5846-ee85-a19c-e417e828ef7d bucketId
+{name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+{name: 'AUTO_TRASH', description: 'Auto Trash Plate Holding', buckets: Array(2), ui: {…}, id: '534b4247-5846-ee85-a19c-e417e828ef7c'} 'bucketGroup'
+['534b4242-5899-e9f9-a19c-e477dd68f862'] 'pre[]-else'
+{name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861'} 'nextBucket-else'
+{name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861'} 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]-else()'
+{name: 'ADA_14', description: 'ADO Upload Frag', buckets: Array(2), ui: {…}, id: '534b4247-5a39-7248-f6a1-ac0b39dd1618', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+['534b4242-5899-e9f9-a19c-e477dd68f862'] 'newInBucketIds'
+
+
+534b4242-5899-e9f9-a19c-e477dd68f862 "bucketId" for Plate Discarding
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861'} 'bucketGroup'
+ {name: 'AUTO_TRASH', description: 'Auto Trash Plate Holding', buckets: Array(2), ui: {…}, id: '534b4247-5846-ee85-a19c-e417e828ef7c', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+ undefined ' wfObj.endPoints[bucketGroup.id]'
+
+# In wfObj.transitionBySourceMap[outputId of AUTO_TRASH--534b4242-5899-e9f9-a19c-e477dd68f85f] is
+#           534b4242-5899-e9f9-a19c-e477dd68f85f:{destination_bucket_id: '534b4242-5899-e9f9-a19c-e477dd68f862', source_bucket_id: '534b4242-5899-e9f9-a19c-e477dd68f85f', ui: {…}, id: '534b4254-5899-e9f9-a19c-e477dd68f863', mode: 'auto'}
+# in nextBucket = wfObj.bucketGroupsByInBucketMap[pre[pre.length - 1]]is 
+#            534b4242-5899-e9f9-a19c-e477dd68f862:{name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861', …}
+
+*******MANUAL TRASH PLATE HOLDING***
+2 0 null true 'x, y, previousBucketGroup, isEntry'
+ 534b4242-5846-ee85-a19c-e417e828ef7b bucketId
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'MANUAL_TRASH', description: 'Manual Trash Plate Holding', buckets: Array(2), ui: {…}, id: '534b4247-5846-ee85-a19c-e417e828ef7a'} 'bucketGroup'
+ ['534b4242-5899-e9f9-a19c-e477dd68f862'] 'pre[]-else'
+ {name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861', …} 'nextBucket-else'
+ {name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861', …} 'bucketGroup._uidata.nextBucketGroups[nextBucket.id]-else()'
+ undefined 'wfObj.entryPoints[bucketGroup.id]'
+
+['534b4242-5899-e9f9-a19c-e477dd68f862'] 'inBucketIds as param in func'
+ 3 0 {name: 'MANUAL_TRASH', description: 'Manual Trash Plate Holding', buckets: Array(2), ui: {…}, id: '534b4247-5846-ee85-a19c-e417e828ef7a', …} undefined 'x, y, previousBucketGroup, isEntry'
+ 534b4242-5899-e9f9-a19c-e477dd68f862 bucketId
+ {name: 'beta', version: 134, description: 'beta synthesis workflow', bucket_groups: Array(282), transitions: Array(349), …} 'wfObj'
+ {name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861', …} 'bucketGroup'
+ {name: 'MANUAL_TRASH', description: 'Manual Trash Plate Holding', buckets: Array(2), ui: {…}, id: '534b4247-5846-ee85-a19c-e417e828ef7a', …} ' bucketGroup._uidata.previousBucketGroups[previousBucketGroup.id]'
+ {name: 'DISCARD', description: 'Plate Discarding', buckets: Array(2), ui: {…}, id: '534b4247-5899-e9f9-a19c-e477dd68f861', …} ' wfObj.endPoints[bucketGroup.id]'
+ ['534b4242-6441-e53f-7224-e8dd0cc8c0a2'] 'inBucketIds as param in func'
+ 
+ # In wfObj.transitionBySourceMap[outputId of MANUAL_TRASH--534b4242-5899-e9f9-a19c-e477dd68f860] is
+# 534b4242-5899-e9f9-a19c-e477dd68f860:{destination_bucket_id: '534b4242-5899-e9f9-a19c-e477dd68f862', source_bucket_id: '534b4242-5899-e9f9-a19c-e477dd68f860', ui: {…}, id: '534b4254-5899-e9f9-a19c-e477dd68f864', mode: 'auto'}
+# 534b4242-5899-e9f9-a19c-e477dd68f862 is not found in wfObj.bucketGroupsByInBucketMap[pre[pre.length - 1]] for nextBucket
+
+
+
+
+
+
+
+
+
+

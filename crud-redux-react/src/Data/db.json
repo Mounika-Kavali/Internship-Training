@@ -1,0 +1,231 @@
+{
+  "document_data_model": [
+    {
+      "ACCOUNT": "Twist Bioscience - SINGAPORE",
+
+      "is_editable": false
+    },
+
+    {
+      "Q_NUMBER": "Q-268588",
+
+      "is_editable": false
+    },
+
+    {
+      "PO_NUMBER": "Yonyou order 202300000246",
+
+      "is_editable": false
+    },
+
+    {
+      "CREATED_DATE": "2023-05-30",
+
+      "is_editable": true
+    },
+
+    {
+      "LOT_NUMBER": "OI_646351275912c3419d11b3d6",
+
+      "is_editable": false
+    },
+
+    {
+      "ORDER_ITEM_ID": "OI_646351275912c3419d11b3d6",
+
+      "is_editable": false
+    },
+
+    {
+      "ITEM_NAME": "Huayin_580genes_V1 panel test",
+
+      "is_editable": false
+    },
+
+    {
+      "PRODUCT_NAME": "Twist Custom Panel, 96 Reactions",
+
+      "is_editable": false
+    },
+
+    {
+      "PRODUCT_NUMBER": "101002",
+
+      "is_editable": false
+    },
+
+    {
+      "STORAGE_CONDITION": "-25 ºC to -15 ºC",
+
+      "is_editable": false
+    },
+
+    {
+      "SHIPPING_CONDITION": "Dry Ice",
+
+      "is_editable": false
+    },
+
+    {
+      "MANUAL_SIGNATURE": "",
+
+      "is_editable": false
+    },
+
+    {
+      "order_id": "WOR_646351275912c3419d11b3d4",
+
+      "is_editable": false
+    },
+
+    {
+      "order_item_id": "OI_646351275912c3419d11b3d6",
+
+      "is_editable": false
+    },
+
+    {
+      "operation_type": "override",
+
+      "is_editable": false
+    },
+
+    {
+      "document_type": "NGS TE Panels",
+
+      "is_editable": false
+    },
+
+    {
+      "ADJUSTED_COVERAGE": "PASS",
+
+      "is_editable": true
+    },
+
+    {
+      "ANIE": "PASS",
+
+      "is_editable": true
+    },
+
+    {
+      "TWIST_DESIGN_ID": "TE-92005111",
+
+      "is_editable": false
+    },
+
+    {
+      "PRINT_DESIGN_ID": "DES_646351275912c3419d11b3d5",
+
+      "is_editable": false
+    },
+
+    {
+      "PROBE_COUNT": 23117,
+
+      "is_editable": false
+    },
+
+    {
+      "REP_PERCENT": "PASS",
+
+      "is_editable": true
+    },
+
+    {
+      "PRODUCT_YIELD": "384 uL",
+
+      "is_editable": false
+    },
+
+    {
+      "EXPIRATION_DATE": "2025-05-20",
+
+      "is_editable": true
+    },
+
+    {
+      "PRESENT_PERCENT": "PASS",
+
+      "is_editable": true
+    },
+
+    {
+      "REQUESTED_YIELD": 0.2,
+
+      "is_editable": false
+    },
+
+    {
+      "VISUAL_INSPECTION": "PASS",
+
+      "is_editable": true
+    },
+
+    {
+      "PLACE_OF_MANUFACTURE": "701 Gateway BLVD, South San Francisco, CA, USA, 94080",
+
+      "is_editable": false
+    },
+
+    {
+      "PHYSICAL_APPEARANCE": "Clear",
+
+      "is_editable": false
+    },
+
+    {
+      "PHYSICAL_STATE": "Liquid",
+
+      "is_editable": false
+    },
+
+    {
+      "HIGH_QUALITY_UNMAPPED_READS": "",
+
+      "is_editable": false
+    },
+
+    {
+      "MANUFACTURE_DATE": "2023-05-21",
+
+      "is_editable": false
+    },
+
+    {
+      "ANIE_THRESHOLD": "0.92",
+
+      "is_editable": false
+    },
+
+    {
+      "ADJUSTED_COVERAGE_THRESHOLD": 30.0,
+
+      "is_editable": false
+    },
+
+    {
+      "DROPOUT_PERCENT_THRESHOLD": "99.9",
+
+      "is_editable": false
+    },
+
+    {
+      "UNDERREPRESENTED_PERCENT_THRESHOLD": 98.0,
+
+      "is_editable": false
+    },
+
+    {
+      "HIGH_QUALITY_UNMAPPED_PERCENT_THRESHOLD": 10.0,
+
+      "is_editable": false
+    },
+
+    {
+      "CONTAINER_BARCODE": "101002_OI_646351275912c3419d11b3d6",
+
+      "is_editable": false
+    }
+  ]
+}

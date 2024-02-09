@@ -1,0 +1,15 @@
+label {
+  font-size: 16px;
+  font-weight: 600;
+}
+input {
+  width: 25%;
+}
+.record {
+  padding: 15px 5px;
+}
+/* .inputField {
+  border: none;
+  outline: none;
+ 
+} */

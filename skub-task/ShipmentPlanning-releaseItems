@@ -1,0 +1,2115 @@
+// https://mes.twistbioscience-qa.com/api/kung/orders/WOR_642ef09d84cf3b003a0fe624/full-details
+GET Response 
+
+{
+    "customer_id": "0015A00001ydohVQAQ",
+    "layout": null,
+    "mixed_items": 0,
+    "ship_partial": true,
+    "hold_forth": false,
+    "shipped_items": 0,
+    "hold_synthesis_planning": false,
+    "due_date": "2023-04-14T16:17:32.606321+00:00",
+    "settings": {
+        "batching": "production",
+        "hold_forth": false,
+        "normalization": null,
+        "scoring_version": "2.1",
+        "hold_forth_reason": "other",
+        "hold_forth_timestamp": "2023-08-28T09:57:35.038457+00:00",
+        "hold_shipment_planning": false,
+        "hold_shipment_planning_timestamp": "2023-04-11T07:30:51.675670+00:00"
+    },
+    "external_id": "8016e000004NRzKAAW",
+    "min_mass_ng": 1,
+    "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+    "order_id": "WOR_642ef09d84cf3b003a0fe624",
+    "category": "production",
+    "sub_type": null,
+    "specialty_production": false,
+    "passing_rate": 90,
+    "received_date": "2023-04-06T16:17:33.473529+00:00",
+    "total_items": 11,
+    "skip_redo": false,
+    "high_priority": false,
+    "closed_items": 0,
+    "name": "Q-258638",
+    "fill_type": "column",
+    "order_status": "closed",
+    "customer_order_number": null,
+    "description": "",
+    "type": "non_clonal_gene",
+    "total_quantity": null,
+    "container_code": "96w_1",
+    "hold_shipment_planning": false,
+    "uniform_lot_per_sku": false,
+    "container_id": "434f4e54-58ed-1a91-810a-d320a0471db6",
+    "abandoned_items": 11,
+    "pending_items": 0,
+    "skip_cmp_drydown": false,
+    "statistics": {
+        "all": {
+            "mixed": 0,
+            "total": 11,
+            "closed": 0,
+            "failed": 0,
+            "pending": 0,
+            "abandoned": 11,
+            "completed": 0,
+            "in_production": 0
+        },
+        "summary": {
+            "total": 11,
+            "closed": 0,
+            "pending": 0,
+            "abandoned": 11,
+            "completed": 0,
+            "in_production": 0
+        },
+        "shippables": {
+            "shippable_fragment": {
+                "total": 11,
+                "closed": 0,
+                "failed": 0,
+                "pending": 0,
+                "abandoned": 11,
+                "completed": 0,
+                "in_production": 0
+            }
+        }
+    },
+    "title": "K.Manfred_final_April",
+    "max_mass_ng": 1000,
+    "container": "96-well Nunc plate",
+    "skip_frag": false,
+    "in_production_items": 0,
+    "is_fast_total_items": 0,
+    "resuspended": false,
+    "is_fast": false,
+    "failed_items": 0,
+    "hold_pls_planning": false,
+    "biosecStatus": {
+        "controlled_cnt": 0,
+        "error": false,
+        "error_msg": null,
+        "not_controlled_cnt": 11,
+        "num_sequences": 11,
+        "of_concern_cnt": 0,
+        "red_flagged": false,
+        "review_open": false,
+        "screen_complete": true
+    },
+    "clonalDetails": [],
+    "vector_names": {
+        "OI_642ef09d84cf3b003a0fe625": null,
+        "OI_642ef09d84cf3b003a0fe628": null,
+        "OI_642ef09d84cf3b003a0fe62b": null,
+        "OI_642ef09d84cf3b003a0fe62e": null,
+        "OI_642ef09d84cf3b003a0fe631": null,
+        "OI_642ef09d84cf3b003a0fe634": null,
+        "OI_642ef09d84cf3b003a0fe637": null,
+        "OI_642ef09d84cf3b003a0fe63a": null,
+        "OI_642ef09d84cf3b003a0fe63d": null,
+        "OI_642ef09d84cf3b003a0fe640": null,
+        "OI_642ef09d84cf3b003a0fe643": null
+    },
+    "screenId": "SCR_337f04ad-77de-4d75-ba78-60835619bbfb",
+    "notes": {
+        "count": 1,
+        "issues": 0,
+        "resolved": 0
+    },
+    "customer_name": "Hybrigenics services",
+    "contact": {
+        "id": "0035A00003FKSztQAH",
+        "name": "Jean-Christophe RAIN",
+        "email": "jcrain@hybrigenics.com"
+    },
+    "poReference": "BCF2386",
+    "shippingAddress": {
+        "first_name": "Jean-Christophe",
+        "last_name": "RAIN",
+        "city": "Évry",
+        "country": "France",
+        "country_iso_code": "FR",
+        "postalCode": "91058",
+        "state": null,
+        "street": "1 Rue Pierre Fontaine",
+        "street2": "Genopole Campus 3 Batiment 1",
+        "phone": "33682211373",
+        "organization": "Hybrigencis Services",
+        "email": "jcrain@hybrigenics.com"
+    },
+    "billingAddress": {
+        "first_name": null,
+        "last_name": null,
+        "city": "Évry",
+        "country": "France",
+        "state": null,
+        "street": "1 Rue Pierre Fontaine",
+        "street2": null,
+        "postalCode": "91058",
+        "phone": "33682211373",
+        "organization": "Hybrigenics Services",
+        "email": "jcrain@hybrigenics.com"
+    },
+    "endCustomerAccount": null,
+    "endCustomerContact": null,
+    "endCustomerShippingAddress": null,
+    "isDropShipment": null,
+    "shippingPreferences": {
+        "manualCreation": false,
+        "carrier": "FEDEX",
+        "carrierDetails": null,
+        "customerAccount": null,
+        "carrierInstructions": null,
+        "is_consolidated_shipment": true
+    },
+    "paymentTerms": "Net 30 Days",
+    "orderItems": [
+        {
+            "name": "FragL",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe631"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 5,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+            "external_id": "a346e000004kGKpAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe631",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragL",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe631",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe632"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 713,
+            "sequence": "GGCCGGACGGGCCAGGAAGACAGCCCCATATAAAAATGTCAACATCCAAAACTTCCACATCAGTTGGAAAGATGGTCTTGGTTTCTGTGCCTTGATCCACCGACACCGGCCCGAGTTGATTGACTATGGAAAGCTTCGAAAGGATGATCCACTCACAAACCTGAACACGGCCTTTGATGTGGCAGAGAGGTTCCTGGACATCCCTAAGATGCTGGATGCTGAAGACATCGTCGGAACTGCCCGGCCAGATGAGAAAGCCATTATGACTTATGTGTCTAGCTTCTATCATGCCTTCTCTGGAGCCCAGAAGGCAGAAACAGCAGCCAATCGCATCTGCAAAGTGTTGGCGGTCAATCAAGAGAACGAGCAGCTTATGGAAGACTATGAGAAGCTGGCCAGTGATCTGTTGGAGTGGATCCGCCGCACCATCCCATGGCTGGAGAATCGGGTGCCTGAGAACACCATGCATGCCATGCAGCAGAAGCTGGAGGACTTCCGAGACTATAGACGCCTGCACAAGCCGCCCAAGGTGCAGGAGAAGTGCCAGCTGGAGATCAACTTTAACACGCTGCAGACCAAGCTGCGGCTCAGCAACCGGCCTGCCTTCATGCCCTCCGAGGGCAGGATGGTCTCGGATATCAACAATGCCTGGGGCTGCCTGGAACAGGCCGAGAAGGGCTACGAGGAGTGGCTGCTGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragI",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe628"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 2,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+            "external_id": "a346e000004kGKmAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe628",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragI",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe628",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe629"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 710,
+            "sequence": "GGCCGGACGGGCCATGAAGACTGCAGGATACCCCAATGTCAATGTGCACAACTTTACCACCAGTTGGAGAGATGGGCTGGCCTTTAATGCCATTGTGCACAAACACCGGCCAGACCTGTTGGATTTTGAGTCCCTGAAGAAGTGTAATGCACACTACAATCTGCAGAATGCTTTCAATCTGGCTGAAAAGGAACTTGGCCTGACGAAGCTCCTGGATCCTGAAGATGTGAATGTAGACCAGCCCGACGAGAAGTCTATCATCACCTACGTGGCCACTTACTACCACTACTTCTCCAAGATGAAGGCCCTGGCTGTGGAAGGCAAAAGAATTGGCAAGGTCCTAGACCATGCCATGGAGGCAGAACACCTGGTAGAGAAATACGAGTCCCTGGCCTCTGAACTGCTGCAGTGGATTGAGCAAACGATCGTGACCCTCAATGACCGACAGCTGGCCAACTCCCTGAGTGGAGTCCAGAACCAGCTGCAGTCTTTCAACTCCTATCGCACTGTGGAGAAGCCACCCAAGTTCACGGAGAAAGGGAACTTGGAGGTGTTGCTCTTCACCATCCAGAGCAAGCTACGGGCCAACAACCAGAAGGTCTACACACCCCGGGAAGGCCGGCTCATCTCGGACATCAACAAGGCCTGGGAGCGGCTGGAGAAAGCCGAACATGAGCGAGAGCTAGCGCTGCGCTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragN",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe637"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 7,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.189579+00:00",
+            "external_id": "a346e000004kGKrAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe637",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragN",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.189579+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe637",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe638"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 713,
+            "sequence": "GGCCGGACGGGCCAGAAAGACAGCCCCATATAAAAACGTCAACGTCCAGAACTTCCATATCAGCTGGAAGGACGGGCTGGCCTTCAATGCACTCATCCACCGGCACAGGCCTGAGCTGATTGAGTATGACAAGCTGCGGAAGGATGATCCAGTCACCAACCTAAACAATGCATTTGAAGTGGCTGAGAAATACCTCGATATCCCCAAGATGTTGGATGCTGAGGATATTGTAGGCACTCTGAGGCCAGATGAGAAGGCCATCATGACTTACGTGTCCTGCTTCTACCACGCCTTCTCGGGGGCCCAGAAGGCTGAGACCGCTGCCAACCGGATCTGCAAGGTGCTGGCTGTGAACCAGGAAAATGAGCACCTGATGGAAGACTATGAACGCCTGGCCAGTGATCTTCTAGAGTGGATTCGGCGCACCATCCCCTGGCTGGAGGACCGGGTGCCTCAGAAGACCATCCAGGAAATGCAGCAGAAGCTGGAGGACTTCCGAGACTATAGGCGTGTGCACAAGCCGCCCAAGGTGCAGGAGAAGTGTCAGCTGGAGATCAACTTCAACACACTGCAGACCAAGCTGCGGCTCAGCAACCGGCCTGCCTTCATGCCCTCCGAGGGCAGGATGGTCTCCGACATCAACAATGGATGGCAGCACCTGGAGCAGGCTGAGAAGGGCTATGAAGAATGGCTGCTGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragO",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe63a"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 8,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.189579+00:00",
+            "external_id": "a346e000004kGKsAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe63a",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragO",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.189579+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe63a",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe63b"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 635,
+            "sequence": "GGCCGGACGGGCCCCTAAGAAACTTTACTATCAGCAACTTAAGATGAAAATCACAGACTTTGAGAACAGGAGAAGTTTTAAGTGTATATGGTTAAACAGCCAATTTAGGGAAGAGGAAATAACACTATACCCAGACAAGCATGGCTGTGTCCGGGACCTGTTAGAAGAATGTAAAAAAGCCGTGGAGCTCGGTGACAAAGCATCAGGGAGACTTAGGCTGCTAGAAATTGTGAGCTACAAAATTATTGGTGTGCATCAAGAAGATGAACTATTAGAATGCTTATCTCCTGCAACGAGTCGGACTTTTAGAATAGAGGAAATACCTTTGGACCAGGTAGACATAGATAAGGAAAACGAGATGCTAATCACAGTGGCACATTTCCACAAAGAGGTGTTTGGGACGTTTGGAATTCCATTTTTGCTAAGGATACACCAGGGTGAGCATTTCCGAGAGGTGATGAAGCGGATACAGAGCCTGCTGGACATCCAGGAGAAGGAGTTTGAAAAGTTTAAATTTGCAATTGTCATGATGGGCCGGCACCAGTACATCAATGAAGATGAGTATGAAGTAAATTTGAAGGACTTTGAGCCACAACCTGGTAACATGTCTCATCCTCGGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragM",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe634"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 6,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.202512+00:00",
+            "external_id": "a346e000004kGKqAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe634",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragM",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.202512+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe634",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe635"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 713,
+            "sequence": "GGCCGGACGGGCCAGGAAGACAGCACCATACCGAAATGTGAACATCCAGAACTTCCACACCAGCTGGAAAGATGGCCTTGGACTCTGTGCCCTCATCCACAGACACCGGCCTGACCTCATCGACTACTCAAAGCTTAACAAGGATGACCCCATAGGAAACATTAACCTGGCCATGGAAATAGCAGAGAAGCACTTGGATATCCCTAAAATGTTGGATGCTGAAGACATTGTCAACACTCCCAAACCCGATGAAAGAGCCATCATGACTTACGTTTCCTGCTTCTACCATGCTTTCGCGGGAGCGGAGCAGGCCGAGACGGCAGCTAACAGGATATGTAAGGTTCTTGCTGTGAATCAAGAGAATGAGAGGCTGATGGAAGAATATGAGAGGCTAGCGAGTGAGCTCTTGGAATGGATTCGACGCACAATCCCCTGGCTGGAGAACAGGACACCGGAGAAGACCATGCAAGCCATGCAGAAGAAGCTGGAGGACTTCCGGGACTATCGTCGTAAGCACAAGCCCCCAAAGGTGCAGGAGAAGTGCCAGCTGGAGATCAACTTCAACACCCTGCAGACCAAGCTTCGGATCAGCAACCGGCCTGCCTTCATGCCCTCCGAGGGCAAGATGGTGTCGGACATTGCTGGTGCCTGGCAGAGGTTGGAGCAGGCCGAGAAGGGCTATGAGGAATGGCTATTGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragP",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe63d"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 9,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:02:54.511952+00:00",
+            "external_id": "a346e000004kGKtAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe63d",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragP",
+                        "tier_name": "Gene Fragment with Adapters (300bp-500bp)",
+                        "part_number": "106354",
+                        "product_name": "Gene Fragment with Adapters (300bp-500bp)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:02:54.511952+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe63d",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe63e"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 380,
+            "sequence": "GGCCGGACGGGCCATGAAGTTCGTGTACAAAGAGGAGCATCCGTTCGAGAAGCGCCGCTCTGAGGGCGAGAAAATCCGAAAGAAATACCCAGACCGGGTCCCGGTGATAGTGGAAAAAGCCCCCAAAGCTCGGATAGGAGACCTGGACAAAAAGAAATACCTGGTGCCTTCTGATCTTACAGTTGGTCAATTCTACTTCTTGATCCGGAAGCGAATTCATCTCCGTGCTGAAGATGCCTTGTTTTTCTTTGTCAACAATGTCATTCCACCCACCAGTGCCACGATGGGTCAGCTGTACCAGGAACACCATGAAGAAGACTTCTTTCTATACATTGCCTACAGTGATGAAAGCGTCTATGGTCTGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragQ",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe640"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 10,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.189579+00:00",
+            "external_id": "a346e000004kGKuAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe640",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragQ",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.189579+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe640",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe641"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 1202,
+            "sequence": "GGCCGGACGGGCCATGGCGGTGTCCGAGAGTCAGCTGAAGAAGATGATGTCCAAGTACAAATATAGAGATCTAACCGTCCGTCAAACTGTCAATGTCATCGCTATGTACAAAGATCTCAAACCTGTATTGGATTCATATGTTTTTAATGATGGCAGTTCCAGGGAGCTGGTGAACCTCACTGGTACAATCCCAGTGCGTTATCGAGGTAATATATATAATATTCCAATATGCCTGTGGCTGCTGGACACATACCCATATAACCCCCCTATCTGTTTTGTTAAGCCTACTAGTTCAATGACTATTAAAACAGGAAAGCATGTGGATGCAAATGGGAAAATCTACCTACCTTATCTACATGACTGGAAACATCCACGGTCAGAGTTGCTGGAGCTTATTCAAATCATGATTGTGATATTTGGAGAGGAGCCTCCAGTGTTCTCCCGGCCTACTGTTTCTGCATCCTACCCACCATACACAGCAACAGGGCCACCAAATACCTCCTACATGCCAGGCATGCCAAGTGGAATCTCTGCATATCCATCTGGATACCCTCCCAACCCCAGTGGTTATCCTGGCTGTCCTTACCCACCTGCTGGCCCATACCCTGCCACAACAAGCTCACAGTACCCTTCCCAGCCTCCTGTGACCACTGTTGGTCCCAGCAGAGATGGCACAATCAGTGAGGACACTATCCGTGCATCTCTCATCTCAGCAGTCAGTGACAAACTGAGATGGCGGATGAAGGAGGAAATGGATGGTGCCCAGGCAGAGCTTAATGCCTTGAAACGAACAGAGGAAGATCTGAAAAAAGGCCACCAGAAACTGGAAGAGATGGTCACCCGCTTAGATCAAGAAGTAGCTGAAGTTGATAAAAACATAGAACTTTTGAAAAAGAAGGATGAAGAACTAAGTTCTGCTCTGGAGAAAATGGAAAATCAATCTGAAAATAATGATATTGATGAAGTTATCATTCCCACAGCCCCACTGTATAAACAGATTCTAAATCTGTATGCAGAGGAAAATGCTATTGAAGACACTATCTTTTACCTTGGAGAAGCTTTGCGGCGGGGAGTCATAGACCTGGATGTGTTCCTGAAACACGTCCGCCTCCTGTCCCGTAAACAGTTCCAGCTAAGGGCACTAATGCAAAAGGCAAGGAAGACTGCGGGCCTTAGTGACCTCTACTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragR",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe643"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 11,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:02:54.473892+00:00",
+            "external_id": "a346e000004kGKvAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe643",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragR",
+                        "tier_name": "Gene Fragment with Adapters (300bp-500bp)",
+                        "part_number": "106354",
+                        "product_name": "Gene Fragment with Adapters (300bp-500bp)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:02:54.473892+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe643",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe644"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 473,
+            "sequence": "GGCCGGACGGGCCCAGTGTGGAAAGGTCCTGGAAGAGGGTGGCTTCTTCGAGGAGAAGGGAGCTATCTTTTGCCCCTCCTGCTATGATGTGCGCTATGCACCCAACTGTGCCAAATGCAAGAAGAAGATCACTGGAGAGATCATGCATGCTCTGAAGATGACCTGGCACGTCCATTGCTTCACCTGTGCTGCCTGCAAAACGCCAATTCGCAACAGAGCCTTTTACATGGAAGAAGGGGCCCCCTACTGCGAGCGAGACTATGAGAAGATGTTTGGCACAAAATGTCGAGGCTGTGACTTCAAGATTGATGCTGGAGACCGCTTCCTGGAAGCGCTGGGCTTCAGCTGGCATGACACATGCTTTGTTTGCGCAATATGTCAGATCAACTTGGAAGGAAAGACCTTCTACTCCAAGAAGGACAAGCCCCTCTGCAAGAGCCACGCCTTCTCTCACGTATAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragH",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe625"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 1,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+            "external_id": "a346e000004kGKlAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe625",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragH",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe625",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe626"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 710,
+            "sequence": "GGCCGGACGGGCCATGAAGACAGCAGGCTACCCCCATGTCAATGTAACCAACTTCACCTCCAGCTGGAAGGATGGCCTGGCCTTCAATGCCCTAATACACAAACACCGGCCTGACCTCATCGACTTTGACAAGCTGAAGGACTCCAATGCCCGGCATAACCTGGAGCATGCTTTTGATGTAGCCGAGCGCCAGCTCGGCATTATCCCACTCCTTGACCCCGAAGATGTCTTCACAGAAAACCCCGATGAGAAATCCATCATCACCTACGTGGTGGCGTTTTATCACTACTTCTCCAAGATGAAGGTGCTGGCGGTGGAGGGCAAGCGAGTTGGCAAGGTCATCGACCACGCCATCGAGACCGAGAAGATGATTGAAAAGTACAGTGGGCTAGCCTCAGACCTGCTCACTTGGATTGAACAAACCATTAGCGTCCTAAACAGCCGCAAGTTTGCCAACTCGTTGAGTGGCGTCCAGCAGCAGCTACAGGCCTTCAGCACCTACCGTACTGTGGAGAAGCCACCCAAGTTTCAGGAGAAGGGGAATCTGGAAGTCCTCCTATTCACTATCCAATCCCGGATGAGAGCCAACAATCAGAAGGTGTACACGCCCCACGATGGGAAGCTGGTGTCTGACATCAACAGGGCCTGGGAGAGCCTGGAGGAAGCAGAGTACCAAAGGGAGCTGGCTCTGAGGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragK",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe62e"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 4,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.202512+00:00",
+            "external_id": "a346e000004kGKoAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe62e",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragK",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.202512+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe62e",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe62f"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 710,
+            "sequence": "GGCCGGACGGGCCCGGAAGACAGCCGGCTACACCAATGTGGACATCACTGACTTCTCCCGAAGCTGGAGTGACGGGCTCGGCTTTAATGCCCTGCTCCACGCTCACAGGCCGGACCTGCTGGATTATGGCTCGCTGAGTCCAGACCGCCCTCTGTATAACCTCTCCTTTGCCTTCCGAGTGGCTGAGCAGCAGCTTGGCATTGCCCAGCTGCTCGACCCTGAGGATGTGGCAGCCCTGCATCCAGATGAGTGCTCCATCATGACCTACCTGTCTCAGTACTACCACTACTTCTCCCGTCTGCAGCGGGGGCACACGGCCCAGAGGAGACTGGCTAAGATCCTGCTGCAGCTGCAGGAGACGGAGGTATTGCAGGCACAATACAAGCAACTGGTGGCTGACCTGCTCTGCTGGATTGAGGAGAAGAAGATGCAGCTAGAAGCTCGGGACTTCCCAGACTCACTGCCTGCCATGCGCCAGCTACTGGCAGCCTTTGCCTCCTTCCGTGCCCGGGAAAAGCCACCTCGGTGGCAGCAGCGAGGAGCCACAGAGGCCCTGCTCTTCCAGCTGCAGACAACACTCCGAGCCCAAAACCGAAGGCCATTCCTACCTCGAGAGGGCCTGGGCCCTGCAGAGCTGGCCCAGCGCTGGGCAGAACTGGAGAGGGCAGAGGCCTGCAGGAGCCAGGCCATGCAGTAGGGCCACTGGGGCC",
+            "vector_name": null
+        },
+        {
+            "name": "FragJ",
+            "payload": {
+                "id": "OI_642ef09d84cf3b003a0fe62b"
+            },
+            "status": "abandoned",
+            "due_date": null,
+            "line_item_number": 3,
+            "description": null,
+            "type": "non_clonal_gene",
+            "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+            "external_id": "a346e000004kGKnAAM",
+            "date_received": "2023-04-06T16:17:33.473529+00:00",
+            "void_tat": false,
+            "order_id": "WOR_642ef09d84cf3b003a0fe624",
+            "is_fast": false,
+            "statistics": {
+                "ordered_summary": {
+                    "shippable_fragment": 1
+                }
+            },
+            "id": "OI_642ef09d84cf3b003a0fe62b",
+            "category": "production",
+            "shippable_order_items": [
+                {
+                    "shipped_order_items": [],
+                    "reason": "customer_cancellation",
+                    "payload": {
+                        "gene_name": "FragJ",
+                        "tier_name": "Gene Fragment with Adapters (500bp-1.8kb)",
+                        "part_number": "106355",
+                        "product_name": "Gene Fragment with Adapters (500bp-1.8kb)"
+                    },
+                    "status": "abandoned",
+                    "type": "shippable_fragment",
+                    "estimated_shipping_date": "2023-04-12T10:03:10.848539+00:00",
+                    "shipping_condition": "ambient",
+                    "order_item_id": "OI_642ef09d84cf3b003a0fe62b",
+                    "id": "53504f49-642e-f09d-84cf-3b003a0fe62c"
+                }
+            ],
+            "notes": {
+                "issues": 0,
+                "count": 0,
+                "resolved": 0
+            },
+            "biosecStatus": "pass",
+            "last_plate_barcode": "pSHPs0410B3574016N",
+            "last_plate_site": "PDX",
+            "current_buckets": [
+                {
+                    "id": "534b4250-6435-4a81-c390-76f6dd713307",
+                    "detail": null,
+                    "hold": false,
+                    "inherited_priority": null,
+                    "item_ref": "pSHPs0410B3574016N",
+                    "timestamp": "2023-04-11T11:54:41.460157+00:00",
+                    "bucket": {
+                        "bucket_group": {
+                            "id": "534b4247-600f-792a-e27c-1a000a18da3c",
+                            "description": "CMP Shipment Release",
+                            "name": "CMP_SHIPMENT_RELEASE",
+                            "workflow_id": "534b4257-5812-445e-a19c-e4146331dec6"
+                        },
+                        "id": "534b4242-600f-792a-e27c-1a000a18da3d",
+                        "description": "CMP Shipment Planning",
+                        "name": "in"
+                    },
+                    "bucket_path": "beta.CMP_SHIPMENT_RELEASE.in",
+                    "local_priority": null,
+                    "type": "plate",
+                    "item_uuid": null
+                }
+            ],
+            "licensePass": null,
+            "plans": [
+                1
+            ],
+            "sequence_length": 710,
+            "sequence": "GGCCGGACGGGCCATGAAAACAGCCGGTTACCCTGAGGTAAACATCCAGAATTTCACCACCAGCTGGAGAGATGGCCTGGCCTTCAATGCCCTCATTCACCGTCACAGGCCTGATCTTGTGGACCTCAGCAAACTTACCAAGTCCAACGCCAACTACAACCTGCAGAGAGCTTTCCGCACAGCCGAGCAGCACCTGGGGCTAGCACGTCTGCTGGACCCCGAAGATGTGAACATGGAGGCTCCAGATGAGAAGTCCATTATCACCTATGTGGTCTCCTTCTACCACTACTTCTCCAAGATGAAGGCTCTGGCGGTGGAGGGAAAACGGATTGGAAAGGTCCTGGACCAGGTGTTGGAGGTGGACAAGATCATAGAACGCTATGAGGAGCTGGCGGCGGAGCTGTTGGCCTGGATCCATCGCACTGTGGACCTCATTAGCAACCAAAAGTTTGCTAACTCACTGAGTGGGGTGCAGCAGCAGCTGCAGGCCTTCACGGCTTACTGTACGCTGGAGAAGCCCGTCAAGTTTCAGGAGAAGGGGAACCTGGAGGTGCTACTCTTCAGCATCCAAAGCAAACTGCGCGCCCACAACCGGCGCCTCTTTGTGCCTCGAGAAGGCTGTGGCATCTGGGATATTGACAAGGCGTGGGGTGAGCTGGAGAAGGCAGAGCATGAGCGAGAGGCGGCCCTCAGATAGGGCCACTGGGGCC",
+            "vector_name": null
+        }
+    ],
+    "licensePass": null
+}
+
+
+// https://mes.twistbioscience-qa.com/api/artik/activity-log/most-recent
+_____________hitting no.of tyms with same payload.______________
+POST payload is
+{
+    "order_ids": [
+        "WOR_642ef09d84cf3b003a0fe624"
+    ]
+}
+No response!
+
+________________hitting one tym after full-details get api call and getting <OiPrompt> popupMOdal_________________
+post payload is
+{
+    "order_ids": [
+        "WOR_642ef09d84cf3b003a0fe624"
+    ]
+}
+respose is
+[
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620542",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b075191888f",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKlAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe625",
+        "timestamp": "2023-08-28T09:57:35.037997+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620545",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918891",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKmAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe628",
+        "timestamp": "2023-08-28T09:57:35.038381+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620548",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918893",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKnAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe62b",
+        "timestamp": "2023-08-28T09:57:35.037295+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a62054b",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918895",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKoAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe62e",
+        "timestamp": "2023-08-28T09:57:35.037651+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a62054e",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918896",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKpAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe631",
+        "timestamp": "2023-08-28T09:57:35.037549+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620551",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918897",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKqAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe634",
+        "timestamp": "2023-08-28T09:57:35.038285+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620554",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918898",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKrAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe637",
+        "timestamp": "2023-08-28T09:57:35.038094+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620557",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918899",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKsAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe63a",
+        "timestamp": "2023-08-28T09:57:35.038189+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a62055a",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918890",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKtAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe63d",
+        "timestamp": "2023-08-28T09:57:35.037443+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a62055d",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918892",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKuAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe640",
+        "timestamp": "2023-08-28T09:57:35.037801+00:00"
+    },
+    {
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "operator_id": "vramagiri",
+        "qc_result_id": null,
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620560",
+        "app_version": "1.0.0.3987",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "event": "forth_removed",
+        "sample_id": "S_643542ceeca18b0751918894",
+        "event_source": "order",
+        "salesforce_order_item_id": "a346e000004kGKvAAM",
+        "type": "hold",
+        "app_name": "artik",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe643",
+        "timestamp": "2023-08-28T09:57:35.037901+00:00"
+    }
+]
+
+
+**************************************************************************
+files:
+E:\01-new\mes-frontend\app\shipment-planning\components\release.js
+E:\01-new\mes-frontend\app\supervisor\actions\orders.js
+E:\01-new\mes-frontend\app\supervisor\reducers\orders\orders.js
+E:\01-new\mes-frontend\app\supervisor\reducers\orders\ui.js
+
+*************************************************************************************************
+OI STATUS button click---> getOiResult(orderId){} 
+-----> action in line88: export const fetchFullOrderDetails = ({ app, orderId }) => { url: `${baseKungApiUrl}orders/${orderId}/full-details`} ----
+----> nextActionType: SUPERVISOR_ORDERS_FETCH_ORDER_DETAILS
+------>orders.js reducer line150:[SUPERVISOR_ORDERS_FETCH_ORDER_DETAILS.SUCCESS]: (state, action) => {
+                                    return handleOrderDetails(state, action);
+                                }-----> handleOrderDetails(){updatingOrder={}, selectedOrderObj={..},.....}
+
+-->>> ui.js reducer line95: [SUPERVISOR_ORDERS_FETCH_ORDER_DETAILS.SUCCESS]: (state, action) => {
+    return {
+        ...state
+        , fetching: setFetching(state, SUPERVISOR_ORDERS_FETCH_ORDER_DETAILS.ACTION_LABEL)
+    }
+}
+
+
+
+componentDidUpdate(prevProps, prevState) {
+    if (this.state.nextCall === 1 && (prevProps.orderDetails !== this.props.orderDetails)) {
+        this.props.fetchRecentOrderActivity({ app: "supervisor/orders", orderId: orderId });
+        this.setState({nextCall: this.state.nextCall+1});
+    }
+    if (this.state.nextCall == 2 && (prevProps.orderSegments !== this.props.orderSegments)) {
+        this.setState({ showOiPrompt: true,...}) //<OiPrompt> popup true
+    }
+}
+
+------> action in line359: export const fetchRecentOrderActivity = ({ app, orderId }) => { url: `${baseArtikUrl}activity-log/most-recent`} -----
+-----> nextActionType: SUPERVISOR_FETCH_RECENT_ORDER_ACTIVITY
+--->order.js reducer line330: [SUPERVISOR_FETCH_RECENT_ORDER_ACTIVITY.SUCCESS]: (state, action) => { let activitySegmentsObj = {}, const activityObj = Object.assign({}.......)}
+
+--->>> ui.js reducer: [SUPERVISOR_FETCH_RECENT_ORDER_ACTIVITY.SUCCESS]: (uiState, action) => (
+                        {
+                            ...uiState
+                            , fetching: setFetching(uiState, SUPERVISOR_FETCH_RECENT_ORDER_ACTIVITY.ACTION_LABEL)
+                        })
+
+
+
+===============================================================================================================================
+BEFORE CLICKING oi status BUTTON, DATA WILL BE LIKE:[current operator is-"skumarPDX"] and whenever we change PDX <-->SFO componentDidUpdate() will be called.
+
+componentDidMount(){
+    this.props.app->> "shipment-planning"
+}
+componentDidUpdate(){
+    "console.log(this.state.nextCall,"nextCall in componentDidUpdate")"
+    nextCall state:0
+
+    this.props.releasingShipmentPlan:"undefined"
+    this.props.ordersInRelease:"undefined"
+    this.props.operatorUiSiteId:'PDX'
+    this.state.showContainersByOrder:{}
+    this.state.showMissingShippablesByOrder:{}
+
+    prevProps.releasingShipmentPlan:"undefined"
+    prevProps.operatorUiSiteId:'PDX'
+    prevState.showContainersByOrder:{}
+    prevState.showMissingShippablesByOrder:{}
+
+    this.state.nextCall:0
+    prevProps.orderDetails:"undefined"
+    this.props.orderDetails:"undefined"
+
+    prevProps.orderSegments:"undefined"
+    this.props.orderSegments:"undefined"
+
+    this.state.issueFilter:"All Orders"
+    prevState.issueFilter:"All Orders"
+    this.props.ordersInRelease:"undefined"
+    this.props.operatorUiSiteId:'PDX'
+   
+
+}
+
+ Again calling componentDidUpdate() after sometime.
+
+componentDidUpdate(){
+    "console.log(this.state.nextCall,"nextCall in componentDidUpdate")"
+    nextCall state:0
+
+    this.props.releasingShipmentPlan:"undefined"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+
+    this.props.operatorUiSiteId:'PDX'
+    this.state.showContainersByOrder:{}
+    this.state.showMissingShippablesByOrder:{}
+
+    prevProps.releasingShipmentPlan:"undefined"
+    prevProps.operatorUiSiteId:'PDX'
+    prevState.showContainersByOrder:{}
+    prevState.showMissingShippablesByOrder:{}
+
+    "const sites = Object.keys(order.plateSiteDetails);"
+    sites:
+    -->['sfo']
+    -->['sfo']
+    -->['sfo']
+    -->['pdx']
+    -->['pdx']
+    -->['missing']
+    -->['pdx']
+    -->['missing']
+    -->.............total sites  35
+
+
+    this.state.nextCall:0
+    prevProps.orderDetails:"undefined"
+    this.props.orderDetails:"undefined"
+
+    prevProps.orderSegments:"undefined"
+    this.props.orderSegments:"undefined"
+
+    this.state.issueFilter:"All Orders"
+    prevState.issueFilter:"All Orders"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+    this.props.operatorUiSiteId:'PDX'
+   
+
+}
+++++++++++++***********+++++++++++++++***********++++++++++***********+++++++++************++++++++++++***********+++++++++++***********++++++++++++++
+
+AFTER CLICKING oi status BUTTON, DATA WILL BE LIKE
+
+WOR_642ef09d84cf3b003a0fe624 -->>> getOiResult(orderId){this.state.nextCall is 0 }
+action SUPERVISOR_ORDERS_FETCH_ORDER_DETAILS_PENDING
+
+componentDidUpdate(){
+    "console.log(this.state.nextCall,"nextCall in componentDidUpdate")"
+    nextCall state:1
+
+    "if (prevProps.releasingShipmentPlan && !this.props.releasingShipmentPlan) {
+        this.toggleConfirmReleaseModal();
+    }"//toggleConfirmReleaseModal() is never be called due to unsatisfied if condition.
+
+    this.props.releasingShipmentPlan:"undefined"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo:(1) ['pSHPs0129B420802HX']}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+
+    this.props.operatorUiSiteId:'PDX'
+    this.state.showContainersByOrder:{}
+    this.state.showMissingShippablesByOrder:{}
+
+    prevProps.releasingShipmentPlan:"undefined"
+    prevProps.operatorUiSiteId:'PDX'
+    prevState.showContainersByOrder:{}
+    prevState.showMissingShippablesByOrder:{}
+
+        " if (this.state.nextCall === 1 && (prevProps.orderDetails !== this.props.orderDetails)) {}"
+    this.state.nextCall:1
+    prevProps.orderDetails:"undefined"
+    this.props.orderDetails:"undefined"
+
+        " if (this.state.nextCall == 2 && (prevProps.orderSegments !== this.props.orderSegments)) {}"
+    prevProps.orderSegments:"undefined"
+    this.props.orderSegments:"undefined"
+
+        " if (this.state.issueFilter !== prevState.issueFilter) {}"
+    this.state.issueFilter:"All Orders"
+    prevState.issueFilter:"All Orders"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+    this.props.operatorUiSiteId:'PDX'
+   
+
+}
+
+ Again calling componentDidUpdate() 
+ 
+componentDidUpdate(){
+    "console.log(this.state.nextCall,"nextCall in componentDidUpdate")"
+    nextCall state:1
+
+    this.props.releasingShipmentPlan:"undefined"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+
+    this.props.operatorUiSiteId:'PDX'
+    this.state.showContainersByOrder:{}
+    this.state.showMissingShippablesByOrder:{}
+
+    prevProps.releasingShipmentPlan:"undefined"
+    prevProps.operatorUiSiteId:'PDX'
+    prevState.showContainersByOrder:{}
+    prevState.showMissingShippablesByOrder:{}
+
+        "if (this.state.nextCall === 1 && (prevProps.orderDetails !== this.props.orderDetails)) {
+            let orderId = this.props.orderDetails.order_id;
+            await this.props.fetchRecentOrderActivity({ app: "supervisor/orders", orderId: orderId });
+            this.setState({nextCall: this.state.nextCall+1});
+        }"
+    this.state.nextCall:1
+    prevProps.orderDetails:"undefined"
+    this.props.orderDetails:{container_code: '96w_1', order_id:"WOR_642ef09d84cf3b003a0fe624", resuspended: false, order_status: 'closed', abandoned_items: 11,........}
+
+    prevProps.orderSegments:"undefined"
+    this.props.orderSegments:{container_code: '96w_1', order_id:"WOR_642ef09d84cf3b003a0fe624",resuspended: false, order_status: 'closed', abandoned_items: 11,......}
+
+    this.state.issueFilter:"All Orders"
+    prevState.issueFilter:"All Orders"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+    this.props.operatorUiSiteId:'PDX'
+   
+
+}
+
+action SUPERVISOR_FETCH_RECENT_ORDER_ACTIVITY_PENDING
+action SUPERVISOR_ORDERS_FETCH_ORDER_DETAILS_SUCCESS
+
+Again invoking componentDidUpdate() 
+ 
+componentDidUpdate(){
+    "console.log(this.state.nextCall,"nextCall in componentDidUpdate")"
+    nextCall state:2
+
+    this.props.releasingShipmentPlan:"undefined"
+    this.props.ordersInRelease:(35) [
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+
+    this.props.operatorUiSiteId:'PDX'
+    this.state.showContainersByOrder:{}
+    this.state.showMissingShippablesByOrder:{}
+
+    prevProps.releasingShipmentPlan:"undefined"
+    prevProps.operatorUiSiteId:'PDX'
+    prevState.showContainersByOrder:{}
+    prevState.showMissingShippablesByOrder:{}
+
+
+    this.state.nextCall:2
+    prevProps.orderDetails:{container_code: '96w_1', order_id:"WOR_642ef09d84cf3b003a0fe624", resuspended: false, order_status: 'closed', abandoned_items: 11, …}
+    this.props.orderDetails:{container_code: '96w_1', order_id:"WOR_642ef09d84cf3b003a0fe624", resuspended: false, order_status: 'closed', abandoned_items: 11,…}
+
+
+
+    prevProps.orderSegments:{container_code: '96w_1', order_id:"WOR_642ef09d84cf3b003a0fe624",resuspended: false, order_status: 'closed', abandoned_items: 11,......}
+    this.props.orderSegments:{container_code: '96w_1', order_id:"WOR_642ef09d84cf3b003a0fe624",resuspended: false, order_status: 'closed', abandoned_items: 11,......}
+
+
+    this.state.issueFilter:"All Orders"
+    prevState.issueFilter:"All Orders"
+    this.props.ordersInRelease:(35)[
+        0:
+        accountId:"0013100001gwlTiAAI"
+        billingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2034', state: 'Massachusetts', street: '275 2nd Ave', …}
+        containerDetails:[{…}]
+        containerIds:['pSHPs0129B420802HX']
+        customer:"Visterra Inc."
+        dueDate:"2023-01-30T20:16:21.345105+00:00"
+        holdStatus:false
+        inPackingBooking:0
+        isFast:false
+        lastUpdatedAt:"2023-10-02T15:47:06.630309+00:00"
+        orderId:"WOR_63b7301600076f000845f657"
+        orderType:"clonal_gene"
+        plateSiteDetails:{sfo: Array(1)}
+        plateType:"96-well Nunc plate"
+        qNumber:"Q-235086"
+        receivedDate:"2023-01-05T20:16:22.356403+00:00"
+        rfsMap:{shippablePlasmidMiniprep: {…}, shippableGlycerolMicromini: {…}}
+        shipPartial:true
+        shipmentCounter:1
+        shipmentReleaseHold:false
+        shippingAddress:{city: 'Waltham', email: 'operations@visterrainc.com', phone: '617-401-2068 (x370)', state: 'Massachusetts', street: '275 2nd Avenue', …}
+        totalOi:9
+        ,{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+    this.props.operatorUiSiteId:'PDX'
+   
+
+    " let segments = this.props.orderSegments.activity && this.props.orderSegments.activity.recent.segments;"
+    segments:"undefined"
+    this.props.orderSegments.activity: "undefined"
+
+}
+
+ Again invoking componentDidUpdate(){
+    ........same data as above invoking and extra data is
+
+    segments:(18)[
+        0: 
+            count:0
+            label:"order"
+            size:-0.001
+        {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}
+    ]
+
+    this.props.orderSegments.activity: {
+        recent: {
+                segments:(18) [    
+                    0 :{label: 'order', size: -0.001, count: 0},
+                {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…},....]
+
+                 list:(11) [{…}, {…}, {…}, {…}, {…}, {…}, {…},...]
+                }, 
+        orderItems: (11) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, .....]
+    }
+
+    this.props.orderSegments.in_production_items:0
+    'this.state.nextCall' is 2
+
+    "for (let i = 0; i < segments.length; i++) {
+                if (segments[i].count >= 1) {
+                    segmentsWithCount.push(`${segments[i].count + " " + "in" + " " + segments[i].label}`);
+                }
+                console.log(segmentsWithCount,"segmentsWithCount")
+            }"
+    segmentsWithCount is []......//repeated 18times with empty array
+
+ }
+ action SUPERVISOR_FETCH_RECENT_ORDER_ACTIVITY_SUCCESS
+
+ =======================================================================================================================
+
+IN REDUCERS FILE-orders.js
+
+const handleOrderDetails = (state, action) => {
+    "console.log(action.payload,"action.payload in fullOrders")"
+        {
+        container:"96-well Nunc plate"
+        container_code:"96w_1"
+        container_id:"434f4e54-58ed-1a91-810a-d320a0471db6"
+        customer_id:"0015A00001ydohVQAQ"
+        customer_name:"Hybrigenics services"
+        customer_order_number:null
+        external_id:"8016e000004NRzKAAW"
+        high_priority:false
+        name:"Q-258638"
+        notes:{count: 1, issues: 0, resolved: 0}
+        orderItems:(11) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+        order_id:"WOR_642ef09d84cf3b003a0fe624"
+        order_status:"closed"
+        passing_rate:90
+        paymentTerms:"Net 30 Days"
+        .....
+    }
+    "if (!newState.selectedOrder || (newState.selectedOrder && newState.selectedOrder.order_id != action.payload.order_id)) {
+        selectedOrderObj = Object.assign({}, action.payload);
+    }"
+    here selectedOrderObj.orderItems isorderItems  :(11) [
+        0 :{name: 'FragL', payload: {…}, status: 'abandoned', due_date: null, line_item_number: 5,id:"OI_642ef09d84cf3b003a0fe631", external_id:
+        "a346e000004kGKpAAM", …},        
+        {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}
+    ]
+    
+    "selectedOrderObj.orderItemsMap = selectedOrderObj.orderItems.reduce((orderItemsMap, orderItem) => {
+        orderItemsMap[orderItem.id] = orderItem;
+        return orderItemsMap;
+    }, {});"
+
+
+    
+    "newState.selectedOrder = selectedOrderObj;"
+    newState is{
+        fetching:{}
+        newOrder:{}
+        selectedOrder:{
+            container:"96-well Nunc plate"
+            container_code:"96w_1"
+            container_id:"434f4e54-58ed-1a91-810a-d320a0471db6"
+            customer_id:"0015A00001ydohVQAQ"
+            customer_name:"Hybrigenics services"
+            customer_order_number:null
+            name:"Q-258638"
+            notes:{count: 1, issues: 0, resolved: 0}
+            orderItems:(11) [
+                {
+                    external_id :"a346e000004kGKnAAM"
+                    id :"OI_642ef09d84cf3b003a0fe62b"
+                    is_fast :false
+                    last_plate_barcode:"pSHPs0410B3574016N"
+                    last_plate_site : "PDX"
+                    notes:{issues: 0, count: 0, resolved: 0}
+                    order_id:"WOR_642ef09d84cf3b003a0fe624"
+                    payload:{id: 'OI_642ef09d84cf3b003a0fe62b'}
+                    status:"abandoned"
+                    type:"non_clonal_gene"
+                    .....
+                }, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+            orderItemsMap:{
+                OI_642ef09d84cf3b003a0fe631: {name: 'FragJ', payload: {…}, status: 'abandoned', due_date: null, line_item_number: 3, …}, 
+                OI_642ef09d84cf3b003a0fe628: {…}, 
+                OI_642ef09d84cf3b003a0fe637: {…}, 
+                OI_642ef09d84cf3b003a0fe63a: {…}, 
+                OI_642ef09d84cf3b003a0fe634: {…}, …}
+            order_id:"WOR_642ef09d84cf3b003a0fe624"
+            order_status:"closed"
+            ....
+        }
+        shippingCollateral:{}
+        updatingOrder:{}
+        updatingShippingSpec:false
+        ......
+    }
+
+    "action.payload.forEach((datum) => {}"
+    NO.OF datum are-11
+    each datum has{
+        "app_version": "1.0.0.3987",
+        "attempt_id": "41544d54-6434-eafd-eca1-8b729a620542",
+        "order_item_id": "OI_642ef09d84cf3b003a0fe625",
+        "salesforce_order_item_id": "a346e000004kGKlAAM",
+        "type": "hold",
+        "event": "forth_removed",
+        "attempt_detail": {
+            "reason": ""
+        },
+        "operator_id": "vramagiri",
+        "sample_id": "S_643542ceeca18b075191888f",
+        "app_name": "artik",
+        "timestamp": "2023-08-28T09:57:35.037997+00:00",
+        "salesforce_order_id": "8016e000004NRzKAAW",
+        "order_id": "WOR_642ef09d84cf3b003a0fe624",
+        "qc_result_id": null,
+        "event_source": "order"
+    }
+    //in each datum order_id is same but order_item_id is different
+
+}
+********        ***********        ***********       **********
+FLOW WILL BE LIKE:
+
+-->WOR_642ef09d84cf3b003a0fe624 getOiResult(orderId)
+-->fetchFullOrderDetails action in shipment-planning
+action GET_FULL_ORDER_DETAILS_PENDING
+-->componentDidUpdate
+-->1 'nextCall-in compUpdate'
+-->Reducer-GET_FULL_ORDER_DETAILS.SUCCESS
+-->componentDidUpdate
+-->1 'nextCall-in compUpdate'
+-->this.state.nextCall === 1 entered
+
+-->fetchRecentOrderActivity action in shipment-planning
+action GET_RECENT_ORDER_ACTIVITY_PENDING
+action GET_FULL_ORDER_DETAILS_SUCCESS
+-->componentDidUpdate
+-->2 'nextCall-in compUpdate'
+-->Reducer-GET_RECENT_ORDER_ACTIVITY.SUCCESS
+-->componentDidUpdate
+-->2 'nextCall-in compUpdate'
+-->componentDidUpdate
+-->0 'nextCall-in compUpdate'
+
+______________________________________________________________________________________________
+----------------------------------------------------------------
+"if (!newState.selectedOrder || (newState.selectedOrder && newState.selectedOrder.order_id != action.payload.order_id)) {
+    selectedOrderObj = Object.assign({}, action.payload);
+    }"
+    
+PAYLOAD pasing from fetchRecentOrderActivity() action
+(11) [
+    
+    0: 
+    {order_id: 'WOR_642ef09d84cf3b003a0fe624', 
+    operator_id: 'vramagiri', 
+    qc_result_id: null, 
+    attempt_id: '41544d54-6434-eafd-eca1-8b729a620542', 
+    app_version: '1.0.0.3987', …}
+    {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}
+]
+   
+
+PAYLOAD pasing from fetchFullOrderDetails() action
+{container_code: '96w_1', resuspended: false, received_date: '2023-04-06T16:17:33.473529+00:00', order_status: 'closed', abandoned_items: 11, …}
+
+
+
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+hardcoded data for action.payload in most-recent api hit
+
+{
+    "orderItems": [
+        {
+            
+            "status": "abandoned",
+            "type": "non_clonal_gene",
+            "id": "OI_642ef09d84cf3b003a0fe631",
+            "shippable_order_items": [
+                { 
+                    "status": "abandoned",  
+                }
+            ],
+           
+        },
+        {
+           
+            "status": "abandoned",
+            "type": "non_clonal_gene",
+            "id": "OI_642ef09d84cf3b003a0fe628",
+            "shippable_order_items": [
+                {   
+                    "status": "abandoned",  
+                }
+            ],
+           
+        },
+        {
+            "status": "abandoned",
+            "type": "non_clonal_gene",
+            "id": "OI_642ef09d84cf3b003a0fe637",
+            "shippable_order_items": [
+                {
+                    "status": "abandoned", 
+                }
+            ],
+           
+        },
+        
+        
+    ],
+
+    "actualPayload": [
+        {
+            "event": "forth_removed",
+            "order_item_id": "OI_642ef09d84cf3b003a0fe625",
+            "event_source": "order"
+        },
+        {
+            "event": "forth_removed",
+            "order_item_id": "OI_642ef09d84cf3b003a0fe628",
+            "event_source": "order"
+        },
+        {
+            "event": "forth_removed",
+            "order_item_id": "OI_642ef09d84cf3b003a0fe62b",
+            "event_source": "order"
+
+        }
+    ]
+}
+
+=====================
+other hardcoded data
+let hardcodedPayload={
+    "order_id": "WOR_645e91f9557153cb9353968f",
+    "in_production_items": 0,
+    "orderItems": [
+        {
+            
+            "status": "in_production",
+            "type": "protein",
+            "id": "OI_645e91f9557153cb93539690",
+            "shippable_order_items": [
+                { 
+                    "status": "in_production",  
+                }
+            ],
+           
+        },
+        {
+           
+            "status": "in_production",
+            "type": "clonal_gene",
+            "id": "OI_645e91f9557153cb93539693",
+            "shippable_order_items": [
+                {   
+                    "status": "in_production",  
+                }
+            ],
+           
+        },
+        {
+            "status": "in_production",
+            "type": "clonal_gene",
+            "id": "OI_645e91f9557153cb93539698",
+            "shippable_order_items": [
+                {
+                    "status": "in_production", 
+                }
+            ],
+           
+        },
+        
+        
+    ],
+    "activities": [
+        {
+            "app_version": "1.0.0.3631",
+            "attempt_id": null,
+            "order_item_id": "OI_645e91f9557153cb93539690",
+            "salesforce_order_item_id": "a346e000004kqeAAAQ",
+            "type": "hold",
+            "event": "forth_added",
+            "attempt_detail": {
+                "reason": ""
+            },
+            "operator_id": "vramagiri",
+            "sample_id": null,
+            "app_name": "artik",
+            "timestamp": "2023-06-19T14:48:04.455045+00:00",
+            "salesforce_order_id": "8016e000004Oa6pAAC",
+            "order_id": "WOR_645e91f9557153cb9353968f",
+            "qc_result_id": null,
+            "event_source": "order"
+        },
+        {
+            "app_version": "1.0.0.3631",
+            "attempt_id": "41544d54-646c-0786-3ea1-333a8533a527",
+            "order_item_id": "OI_645e91f9557153cb93539693",
+            "salesforce_order_item_id": "a346e000004kqe8AAA",
+            "type": "hold",
+            "event": "forth_added",
+            "attempt_detail": {
+                "reason": ""
+            },
+            "operator_id": "vramagiri",
+            "sample_id": "S_646c07863ea1333a8533a526",
+            "app_name": "artik",
+            "timestamp": "2023-06-19T14:48:04.455264+00:00",
+            "salesforce_order_id": "8016e000004Oa6pAAC",
+            "order_id": "WOR_645e91f9557153cb9353968f",
+            "qc_result_id": null,
+            "event_source": "order"
+        },
+        {
+            "app_version": "1.0.0.3631",
+            "attempt_id": "41544d54-646b-d621-3ea1-334001477c13",
+            "order_item_id": "OI_645e91f9557153cb93539698",
+            "salesforce_order_item_id": "a346e000004kqe9AAA",
+            "type": "hold",
+            "event": "forth_added",
+            "attempt_detail": {
+                "reason": ""
+            },
+            "operator_id": "vramagiri",
+            "sample_id": "S_646bd6213ea1334001477c12",
+            "app_name": "artik",
+            "timestamp": "2023-06-19T14:48:04.455171+00:00",
+            "salesforce_order_id": "8016e000004Oa6pAAC",
+            "order_id": "WOR_645e91f9557153cb9353968f",
+            "qc_result_id": null,
+            "event_source": "order"
+        }
+    ]
+}
+

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header{
+  background-image: url("../asserts/images/rodion-kutsaiev-3YWMCEp1vYI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.navbar {
+  background-color: #f2f2f2;
+  padding: 20px 150px;
+  background: linear-gradient(to right, rgb(233, 85, 196), rgb(141, 138, 219));
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+   
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #d9f507;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background-color: #e9c2eb;
+}
+
+.nav-link-dropdown {
+  cursor: pointer;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  padding: 10px;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(to left, rgb(216, 99, 142), rgb(191, 138, 219));
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.nav-item .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+    background-color: #e9c2eb;
+}
+.downArrow::after{
+    content: " ▼";
+    padding: 0 3px;
+    font-size: 12px;
+}
+.upArrow::after{
+    content: " ▲";
+    padding: 0 3px;
+    font-size: 12px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 720px) {
+  
+}
+

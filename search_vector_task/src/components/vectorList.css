@@ -1,0 +1,41 @@
+.searchBar {
+  width: 30%;
+  transform: translate(100%, 0%);
+  padding: 10px 3px;
+  outline-color: rgb(126, 126, 236);
+}
+.searchBar:hover {
+  border: 2px solid lightblue;
+}
+.itemList{
+    width:40%;
+    background-color: rgb(135, 162, 199);
+    transform: translate(60%, 0%);
+    display: flex;
+   justify-content: space-between;
+   margin:2% 0;
+}
+.list ul {
+    list-style-type: none;
+   
+}
+.itemDetails1{
+    width:40%;
+    background-color: rgb(204, 163, 201);
+    margin:2%;
+    padding: 2%;
+}
+.itemDetails2{
+    width:40%;
+    background-color:  rgb(204, 163, 201);
+    margin:2%;
+    padding: 2%;
+}
+@media screen and (min-width: 480px) {
+  .searchBar {
+    width: 30%;
+    transform: translate(100%, 0%);
+    padding: 10px 3px;
+    outline-color: rgb(126, 126, 236);
+  }
+}

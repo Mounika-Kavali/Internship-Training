@@ -1,0 +1,14 @@
+.addContactForm {
+  margin: 2% 10%;
+}
+.labelInput {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0;
+  background-color: palevioletred;
+}
+.dataBinding {
+  width: auto;
+  background-color: aqua;
+}

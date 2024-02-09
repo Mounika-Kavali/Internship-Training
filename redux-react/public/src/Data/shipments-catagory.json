@@ -1,0 +1,795 @@
+{
+  "catalog": {
+    "containers": [
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f712",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f711",
+              "sfdc_id": "a346e000004kaFjAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100578",
+          "parent_part_number": "100578",
+          "order_item_id": "OI_645d6b88181914914a03f711",
+          "external_id": "a346e000004kaFjAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f711": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f712",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb13-32a2-7c168cb81474",
+        "barcode": "100578",
+        "external_id": null,
+        "external_id_cat": "100578_3100001035"
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f72b",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f728",
+              "sfdc_id": "a346e000004kaUUAAY",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100985",
+          "parent_part_number": "101025",
+          "order_item_id": "OI_645d6b88181914914a03f728",
+          "external_id": "a346e000004kaUUAAY",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f728": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f72b",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb13-32a2-7c168cb81476",
+        "barcode": "100985",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f729",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f728",
+              "sfdc_id": "a346e000004kaUUAAY",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100930",
+          "parent_part_number": "101025",
+          "order_item_id": "OI_645d6b88181914914a03f728",
+          "external_id": "a346e000004kaUUAAY",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f728": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f729",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb13-32a2-7c168cb81478",
+        "barcode": "100930",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f721",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f720",
+              "sfdc_id": "a346e000004kaFpAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104108",
+          "parent_part_number": "104108",
+          "order_item_id": "OI_645d6b88181914914a03f720",
+          "external_id": "a346e000004kaFpAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f720": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f721",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb13-32a2-7c168cb8147a",
+        "barcode": "104108",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f72e",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f72d",
+              "sfdc_id": "a346e000004kaUlAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104325",
+          "parent_part_number": "104325",
+          "order_item_id": "OI_645d6b88181914914a03f72d",
+          "external_id": "a346e000004kaUlAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f72d": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f72e",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb8147c",
+        "barcode": "104325",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f726",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f723",
+              "sfdc_id": "a346e000004kaUTAAY",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100985",
+          "parent_part_number": "101025",
+          "order_item_id": "OI_645d6b88181914914a03f723",
+          "external_id": "a346e000004kaUTAAY",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f723": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f726",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb8147e",
+        "barcode": "100985",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f724",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f723",
+              "sfdc_id": "a346e000004kaUTAAY",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100930",
+          "parent_part_number": "101025",
+          "order_item_id": "OI_645d6b88181914914a03f723",
+          "external_id": "a346e000004kaUTAAY",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f723": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f724",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb81480",
+        "barcode": "100930",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f703",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f702",
+              "sfdc_id": "a346e000004kaFeAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "101308",
+          "parent_part_number": "101308",
+          "order_item_id": "OI_645d6b88181914914a03f702",
+          "external_id": "a346e000004kaFeAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f702": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f703",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb81482",
+        "barcode": "101308",
+        "external_id": null,
+        "external_id_cat": "101308_2000007989"
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f6fe",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f6fd",
+              "sfdc_id": "a346e000004kaFdAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100573",
+          "parent_part_number": "104207",
+          "order_item_id": "OI_645d6b88181914914a03f6fd",
+          "external_id": "a346e000004kaFdAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f6fd": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f6fe",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb81484",
+        "barcode": "100573",
+        "external_id": null,
+        "external_id_cat": "100573_3100000877"
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f700",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f6fd",
+              "sfdc_id": "a346e000004kaFdAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104119",
+          "parent_part_number": "104207",
+          "order_item_id": "OI_645d6b88181914914a03f6fd",
+          "external_id": "a346e000004kaFdAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f6fd": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f700",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb81486",
+        "barcode": "104119",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f6fb",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f6f8",
+              "sfdc_id": "a346e000004kaFcAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104119",
+          "parent_part_number": "104207",
+          "order_item_id": "OI_645d6b88181914914a03f6f8",
+          "external_id": "a346e000004kaFcAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f6f8": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f6fb",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb14-32a2-7c168cb81488",
+        "barcode": "104119",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f6f9",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f6f8",
+              "sfdc_id": "a346e000004kaFcAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100573",
+          "parent_part_number": "104207",
+          "order_item_id": "OI_645d6b88181914914a03f6f8",
+          "external_id": "a346e000004kaFcAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f6f8": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f6f9",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb8148a",
+        "barcode": "100573",
+        "external_id": null,
+        "external_id_cat": "100573_3100000970"
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f715",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f714",
+              "sfdc_id": "a346e000004kaFkAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104134",
+          "parent_part_number": "104134",
+          "order_item_id": "OI_645d6b88181914914a03f714",
+          "external_id": "a346e000004kaFkAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f714": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f715",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb8148c",
+        "barcode": "104134",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f71e",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f71d",
+              "sfdc_id": "a346e000004kaFoAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104108",
+          "parent_part_number": "104108",
+          "order_item_id": "OI_645d6b88181914914a03f71d",
+          "external_id": "a346e000004kaFoAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f71d": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f71e",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb8148e",
+        "barcode": "104108",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f709",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f708",
+              "sfdc_id": "a346e000004kaFgAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100983",
+          "parent_part_number": "100983",
+          "order_item_id": "OI_645d6b88181914914a03f708",
+          "external_id": "a346e000004kaFgAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f708": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f709",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb81490",
+        "barcode": "100983",
+        "external_id": null,
+        "external_id_cat": "100983_3100000932"
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f70c",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f70b",
+              "sfdc_id": "a346e000004kaFhAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100983",
+          "parent_part_number": "100983",
+          "order_item_id": "OI_645d6b88181914914a03f70b",
+          "external_id": "a346e000004kaFhAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f70b": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f70c",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb81492",
+        "barcode": "100983",
+        "external_id": null,
+        "external_id_cat": "100983_3100000932"
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f71b",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f71a",
+              "sfdc_id": "a346e000004kaFmAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104325",
+          "parent_part_number": "104325",
+          "order_item_id": "OI_645d6b88181914914a03f71a",
+          "external_id": "a346e000004kaFmAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f71a": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f71b",
+                "shipping_condition": "ambient"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb81494",
+        "barcode": "104325",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f718",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f717",
+              "sfdc_id": "a346e000004kaFlAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "104134",
+          "parent_part_number": "104134",
+          "order_item_id": "OI_645d6b88181914914a03f717",
+          "external_id": "a346e000004kaFlAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f717": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f718",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb15-32a2-7c168cb81496",
+        "barcode": "104134",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f70f",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f70e",
+              "sfdc_id": "a346e000004kaFiAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "100578",
+          "parent_part_number": "100578",
+          "order_item_id": "OI_645d6b88181914914a03f70e",
+          "external_id": "a346e000004kaFiAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f70e": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f70f",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb16-32a2-7c168cb81498",
+        "barcode": "100578",
+        "external_id": null
+      },
+      {
+        "type": "CAT",
+        "internal_id": "53504f49-645d-6b88-1819-14914a03f706",
+        "missing": null,
+        "lot_number": null,
+        "statistics": {
+          "samples": [
+            {
+              "order_item_id": "OI_645d6b88181914914a03f705",
+              "sfdc_id": "a346e000004kaFfAAI",
+              "attempt_type": "shippable_catalog",
+              "sample_id": null
+            }
+          ],
+          "sample_id": null,
+          "attempt_type": "shippable_catalog",
+          "part_number": "101309",
+          "parent_part_number": "101309",
+          "order_item_id": "OI_645d6b88181914914a03f705",
+          "external_id": "a346e000004kaFfAAI",
+          "shippable_contract": {
+            "OI_645d6b88181914914a03f705": {
+              "shippable_catalog": {
+                "id": "53504f49-645d-6b88-1819-14914a03f706",
+                "shipping_condition": "dry_ice"
+              }
+            }
+          }
+        },
+        "id": "53485043-645f-bb16-32a2-7c168cb8149a",
+        "barcode": "101309",
+        "external_id": null
+      }
+    ],
+    "part_lot_map": {
+      "recommended_lot_list": [
+        {
+          "partnumber": "100578",
+          "lot": "3100001035",
+          "quantity": 2
+        },
+        {
+          "partnumber": "100985",
+          "lot": "3100001044",
+          "quantity": 2
+        },
+        {
+          "partnumber": "100930",
+          "lot": "3100001143",
+          "quantity": 2
+        },
+        {
+          "partnumber": "104108",
+          "lot": "3400002341",
+          "quantity": 2
+        },
+        {
+          "partnumber": "104325",
+          "lot": "2500000158",
+          "quantity": 2
+        },
+        {
+          "partnumber": "101308",
+          "lot": "2000007989",
+          "quantity": 1
+        },
+        {
+          "partnumber": "100573",
+          "lot": "3100000877",
+          "quantity": 2
+        },
+        {
+          "partnumber": "104119",
+          "lot": "2000007766",
+          "quantity": 2
+        },
+        {
+          "partnumber": "104134",
+          "lot": "2500000197",
+          "quantity": 2
+        },
+        {
+          "partnumber": "100983",
+          "lot": "3100000932",
+          "quantity": 2
+        },
+        {
+          "partnumber": "101309",
+          "lot": "2000008420",
+          "quantity": 1
+        }
+      ],
+      "part_lot_map": {
+        "100573": [
+          "3100000877",
+          "3100001000",
+          "3100001016",
+          "3100000970",
+          "3100000993",
+          "3100000994"
+        ],
+        "100578": [
+          "3100000922",
+          "3100000936",
+          "3100000960",
+          "3100001035",
+          "2500000417"
+        ],
+        "100930": [
+          "3100001143",
+          "2500000167",
+          "2500000167"
+        ],
+        "100983": [
+          "3100000932",
+          "3100000938",
+          "3100001036"
+        ],
+        "100985": [
+          "3100001044",
+          "2500000224",
+          "2500000224",
+          "2500000224"
+        ],
+        "101308": [
+          "2000007989",
+          "2000008312",
+          "2000008502",
+          "2000008502",
+          "2000008526"
+        ],
+        "101309": [
+          "2000008420"
+        ],
+        "104108": [
+          "3400002341",
+          "3400002275",
+          "3400002536",
+          "3400002769"
+        ],
+        "104119": [
+          "2000007766",
+          "2500000117",
+          "2500000311"
+        ],
+        "104134": [
+          "2000005366",
+          "2500000197"
+        ],
+        "104325": [
+          "2500000158",
+          "2500000158",
+          "2000007630"
+        ]
+      },
+      "expired_lot_list": {}
+    }
+  }
+}

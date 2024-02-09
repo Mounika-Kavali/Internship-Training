@@ -1,0 +1,71 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "sania",
+      "age": "21",
+      "roll": "5H0",
+      "email": "sania@gmail.com",
+      "address": {
+        "city": "new delhi",
+        "pincode": 50053
+      }
+    },
+    {
+      "id": 2,
+      "name": "shailaja",
+      "age": "28",
+      "roll": "5G7",
+      "email": "shailaja@gmail.com",
+      "address": {
+        "city": "pune",
+        "pincode": 50087
+      }
+    },
+    {
+      "id": 3,
+      "name": "sahitya",
+      "age": "39",
+      "roll": "5D3",
+      "email": "sahitya@gmail.com",
+      "address": [
+        {
+          "address1": {
+            "id": "5D3_1",
+            "city": "banglore",
+            "pincode": 50023
+          },
+          "address2": {
+            "id": "5D3_2",
+            "city": "banglore",
+            "pincode": 50023
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Shiv",
+      "age": "17",
+      "roll": "5E9",
+      "email": "sangi@gmail.com",
+      "address": {
+        "city": "tirupati",
+        "pincode": 50074
+      }
+    },
+    {
+      "id": 5,
+      "name": "rama",
+      "age": "1700",
+      "roll": "5y1",
+      "email": "rama@gmail.com",
+      "address": {
+        "city": "tirupati",
+        "pincode": 50074
+      },
+      "address.city": "tirupativ",
+      "address.pincode": "5007"
+    }
+  ]
+}

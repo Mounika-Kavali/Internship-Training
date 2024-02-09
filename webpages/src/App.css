@@ -1,0 +1,724 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* body {
+  background-image: url("../src/asserts/images/MicrosoftTeams-image\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+} */
+
+.RegForm {
+  width: 35%;
+  padding: 2%;
+  /* background: linear-gradient(to right, rgb(233, 85, 196), rgb(141, 138, 219)); */
+  /* transform: translate(100%, 20%); */
+  margin: 10% 30%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   background-image: url("https://images.unsplash.com/photo-1661729474052-a2817a8d05d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"); 
+  /* filter: blur(5px);   */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HeadingName {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 28px;
+}
+.LabelInputDiv {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.regLabel {
+  width: 50%;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.GenderInputs {
+  width: 72%;
+ 
+}
+
+.input-box {
+  border: none;
+  color: white;
+  width: 70%;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 2px solid white;
+  outline: none;
+  background: transparent;
+}
+.input-box:focus {
+  border-bottom: 2px solid skyblue;
+}
+.errorMsg {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 30%;
+}
+.signUpButton {
+  margin-top: 20px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background: rgb(120, 239, 197);
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.signUpButton:hover {
+  background-color: rgb(86, 139, 170);
+}
+@media (max-width: 480px) {
+  .RegForm{
+    width: 80%;
+    padding: 2%;
+    margin: 50% 7%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .errorMsg {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 35%;
+  }
+}
+@media (min-width: 480px) and (max-width: 574px) {
+  .RegForm{
+    width: 80%;
+    padding: 2%;
+    margin: 50% 7%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .errorMsg {
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 35%;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+  .RegForm{
+    width: 80%;
+    padding: 2%;
+    margin: 50% 7%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .errorMsg {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 30%;
+  }
+}
+/* LOGIN PAGE */
+
+.loginForm img {
+  width: 100%;
+  height: 99vh;
+}
+.LogForm{
+  width: 30%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top:20%;
+  left:10%;
+  position: absolute;
+  /* background-color: rgb(226, 105, 105); */
+  
+}
+
+.loginErrorMsg {
+  width: 70%; /* so that error msg will display at left */
+  color: red;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.login-email-input-box {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px; /* Add space for the icon */
+  background-image: url("https://icons.veryicon.com/png/o/miscellaneous/linear-icon-18/email-142.png");
+  background-position: left 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  color:white;
+  border:1px solid white;
+  background-color: transparent;
+  outline-color: skyblue;
+  border-radius: 10px;
+}
+.login-password-input-box {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px; /* Add space for the icon */
+  background-image: url("https://icons.veryicon.com/png/o/miscellaneous/linear/password-85.png");
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  color:white;
+  border:1px solid white;
+  background-color: transparent;
+  outline-color: skyblue;
+  border-radius: 10px;
+}
+.forgotPassword {
+  color: blue;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.forgotPassword u {
+  cursor: pointer;
+}
+.loginButton {
+  padding: 5px 20px;
+  background: rgb(120, 239, 197);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.loginButton:hover {
+  background-color: rgb(86, 139, 170);
+}
+.horizontal-line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid gray;
+  margin: 10px 0;
+}
+.registerButton {
+  padding: 5px 50px;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: rgb(68, 111, 228);
+}
+@media (max-width: 640px) {
+  .Form-Wrapper {
+    width: 100%;
+    /* height:100vh; */
+  }
+  .LogForm img{
+    filter: blur(15px);
+  }
+  .LogForm{
+    width: 80%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:20%;
+    left:10%;
+    position: absolute;
+    /* background-color: rgb(226, 105, 105); */
+    
+  }
+}
+
+/* FORGOT PASSWORD */
+.leftArrowIcon {
+  margin-top: 3%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.fpForm {
+  width: 25%;
+  padding: 2%;
+  background: linear-gradient(to right, rgb(233, 85, 196), rgb(141, 138, 219));
+  /* transform: translate(120%, 30%); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 30%;
+  position: absolute;
+}
+.otp-fpDiv {
+  width: 40%;
+  margin-bottom: 15px;
+}
+.fpDiv {
+  margin-bottom: 15px;
+}
+
+.fpEmail {
+  font-size: 22px;
+}
+.otpButton {
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+.fp-input-box {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid skyblue;
+  padding: 5px 2px;
+}
+.fp-input-box::placeholder {
+  color: white;
+}
+.resetButton {
+  width: fit-content;
+  position: relative;
+  left: 80%;
+  padding: 6px;
+  background: rgb(120, 239, 197);
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.resetButton:hover {
+  background-color: rgb(86, 139, 170);
+}
+.success-msg {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(18, 160, 5);
+}
+.error-msg {
+  font-size: 14px;
+  color: red;
+}
+@media (max-width: 640px) {
+  .fpForm {
+    width: 35%;
+    padding: 2%;
+    background: linear-gradient(
+      to right,
+      rgb(233, 85, 196),
+      rgb(141, 138, 219)
+    );
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+  }
+  .HeadingName {
+    font-size: 14px;
+  }
+  .fp-input-box::placeholder {
+    color: white;
+    font-size: 14px;
+  }
+  .resetButton {
+    width: fit-content;
+    position: relative;
+    left: 70%;
+    padding: 3px;
+    background: rgb(120, 239, 197);
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+}
+@media (min-width: 640px) {
+  .fpForm {
+    width: 35%;
+    padding: 2%;
+    background: linear-gradient(
+      to right,
+      rgb(233, 85, 196),
+      rgb(141, 138, 219)
+    );
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+  }
+  .HeadingName {
+    font-size: 14px;
+  }
+  .fp-input-box::placeholder {
+    color: white;
+    font-size: 14px;
+  }
+  .resetButton {
+    width: fit-content;
+    position: relative;
+    left: 70%;
+    padding: 3px;
+    background: rgb(120, 239, 197);
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+  }
+}
+/* -------SERVICES PAGE------- */
+.serviceHeading {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /*  equal columns */
+  grid-gap: 20px; /* Gap between grid items */
+  margin: 5% 10%;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 70px 25px;
+  text-align: center;
+  background-image: url("../src/asserts/images/MicrosoftTeams-image\ \(3\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  opacity: 0.5;
+}
+.grid-item p {
+  color: rgb(205, 226, 17);
+  /* margin:70px 30px; */
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#div1 {
+  background-image: url("../src/asserts/images/BirthdayImage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#div2 {
+  background-image: url("https://images.unsplash.com/photo-1621801306185-8c0ccf9c8eb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aW5kaWFuJTIwd2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#div3 {
+  background-image: url("https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHdlZGRpbmclMjByaW5nc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#div4 {
+  background-image: url("https://images.unsplash.com/photo-1621600411688-4be93cd68504?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHBob3RvZ3JhcGh5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* -------SERVICE DETAILSS------ */
+.bg img {
+  width: 100%;
+  height: 100vh;
+  filter: blur(5px);
+}
+
+.serviceDetailsDiv {
+  /* width: 30%; */
+
+  top: 10%;
+  left: 10%;
+  position: absolute;
+  padding: 2% 3% 2% 3%;
+  /* background-color: rgb(116, 114, 114); */
+}
+
+.eachCheckList {
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.othersCheckList{
+  width: fit-content;
+  margin-bottom: 20px;
+  display: flex;
+ 
+}
+/* .eachCheckList input[type="checkbox"]:checked{
+    color:green
+  } */
+.serviceHeadingName {
+  margin-bottom: 15px;
+  color:  rgb(0, 140, 255);
+}
+.serviceLabel {
+  width:25%;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.serviceCheckBox {
+  transform: scale(1.8); /* Increase checkbox size */
+
+  margin: 0 15px;
+}
+
+.serviceCheckBox input[type="checkbox"]:checked {
+  background-color: green;
+}
+
+#amt {
+  font-size: 35px;
+  color: rgb(0, 140, 255);
+}
+
+.continueButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+.continueButton {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* ------POPUP WINDOW FORM-------- */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(181, 176, 176, 0.5); /* semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  width: 25%;
+  background-color: white;
+  padding: 5px 30px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.closeButtonDiv {
+  display: flex;
+  justify-content: right;
+}
+.closeButton {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.closeButton:hover {
+  color: red;
+}
+.popupHeading {
+  color: rgb(24, 138, 226);
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputLabel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.inputLabel label {
+  align-items: left;
+  display: flex;
+  font-size: 18px;
+}
+.inputLabel input[type="text"] {
+  width: 55%;
+}
+.inputLabel input[type="date"] {
+  width: 55%;
+}
+.inputLabel textarea {
+  width: 55%;
+}
+.inputLabel input,
+textarea {
+  outline-color: rgb(29, 174, 232);
+  border: 1px solid rgb(125, 19, 224);
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 8px;
+}
+.nextButtonDiv {
+  display: flex;
+  justify-content: right;
+  margin: 20px 0;
+}
+.nextButton {
+  padding: 4px 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border:1px solid black;
+  background-color: rgb(131, 204, 233);
+}
+
+#amount{
+  font-size: 20px;
+  color: rgb(14, 100, 228);
+}
+/* -----PAYMENT---------- */
+.infoDiv {
+  width: 60%;
+  margin: 5% 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.infoName {
+  font-size: 24px;
+}
+.allServiceInfo {
+  width: 40%;
+  padding: 2%;
+  background-color: rgb(185, 238, 220);
+  box-sizing: border-box;
+  border-radius: 20px;
+  
+}
+
+.unorderListItems {
+  margin-left: 40px;
+}
+.totalAmount {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.totalAmount span {
+  font-size: 26px;
+  font-weight: 600;
+  color: blue;
+}
+.nameValue {
+  margin: 10px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+.paymentsDiv {
+  display: flex;
+  justify-content: center;
+}
+.paymentChosen {
+  width: 30%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  font-size: 25px;
+}
+.paymentChosen.active {
+ 
+  background-color: rgb(117, 203, 243);
+  font-weight: bold;
+ 
+}
+.paymentMethods{
+  width:35%;
+  margin:30px 20%;
+  padding: 20px 90px 20px 30px;
+  background-color: rgb(233, 220, 201);
+}
+.payment-accordion {
+  width: 100%;
+}
+
+.payment-option {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+
+.payment-option:hover {
+  background-color: #e0e0e0;
+}
+
+.payment-option.active {
+  background-color: #d0d0d0;
+}
+
+.sub-options {
+  margin-left: 20px;
+}
+
+.sub-option {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sub-option:hover {
+  background-color: #f0f0f0;
+}
+.payButtonDiv{
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+  
+}
+.payButton{
+  padding:6px 5px;
+  /* border-radius: 10px; */
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(138, 182, 226);
+}
+.payButton:hover{
+  background-color: rgb(130, 236, 155);
+}
+
+
+
+
+
