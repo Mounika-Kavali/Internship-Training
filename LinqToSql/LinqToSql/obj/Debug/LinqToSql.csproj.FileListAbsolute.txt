@@ -1,0 +1,11 @@
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\bin\Debug\LinqToSql.exe.config
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\bin\Debug\LinqToSql.exe
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\bin\Debug\LinqToSql.pdb
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.csproj.AssemblyReference.cache
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.csproj.SuggestedBindingRedirects.cache
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.Properties.Resources.resources
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.csproj.GenerateResource.cache
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.csproj.CoreCompileInputs.cache
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.exe
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.pdb
+C:\_AABB\ASP_samples\LinqToSql\LinqToSql\obj\Debug\LinqToSql.Form1.resources

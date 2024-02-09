@@ -1,0 +1,39 @@
+﻿@page
+@model CoreWebApp.Pages.DETAILS.IndexModel
+@{
+}
+<br /><br />
+<h2> LIST OF STUDENT DETAILS</h2>
+<a class="btn btn-primary btn-sm" href="/DETAILS/Create">New Student</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th> ID:</th>
+            <th> NAME:</th>
+            <th> EMAIL:</th>
+            <th> PHONE:</th>
+            <th> ADDRESS:</th>
+            <th> CREATED AT:</th>
+            <th> ACTION:</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listDetails)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.email</td>
+                <td>@item.phone</td>
+                <td>@item.address</td>
+                <td>@item.created_at</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/DETAILS/Edit?id=@item.id">EDIT</a>
+                    <a class="btn btn-primary btn-sm" href="/DETAILS/Delete?id=@item.id">DELETE</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+
+</table>
